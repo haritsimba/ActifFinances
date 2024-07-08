@@ -1,0 +1,4642 @@
+[
+  {
+    "symbol": "ZRX",
+    "nom": "0x Protocol",
+    "wsstream": "zrxusdt@ticker"
+  },
+  {
+    "symbol": "1000SATS",
+    "nom": "1000SATS (Ordinals)",
+    "wsstream": "1000satsusdt@ticker"
+  },
+  {
+    "symbol": "1INCH",
+    "nom": "1inch",
+    "wsstream": "1inchusdt@ticker"
+  },
+  {
+    "symbol": "BAKE",
+    "nom": "404 Bakery",
+    "wsstream": "bakeusdt@ticker"
+  },
+  {
+    "symbol": "AAVE",
+    "nom": "Aave",
+    "wsstream": "aaveusdt@ticker"
+  },
+  {
+    "symbol": "GHST",
+    "nom": "Aavegotchi",
+    "wsstream": "ghstusdt@ticker"
+  },
+  {
+    "symbol": "ALPHA",
+    "nom": "Aavegotchi ALPHA",
+    "wsstream": "alphausdt@ticker"
+  },
+  {
+    "symbol": "ACA",
+    "nom": "Acala",
+    "wsstream": "acausdt@ticker"
+  },
+  {
+    "symbol": "ACE",
+    "nom": "Acent",
+    "wsstream": "aceusdt@ticker"
+  },
+  {
+    "symbol": "ACE",
+    "nom": "ACEToken",
+    "wsstream": "aceusdt@ticker"
+  },
+  {
+    "symbol": "ACM",
+    "nom": "acmFinance",
+    "wsstream": "acmusdt@ticker"
+  },
+  {
+    "symbol": "ACM",
+    "nom": "AC Milan Fan Token",
+    "wsstream": "acmusdt@ticker"
+  },
+  {
+    "symbol": "ACM",
+    "nom": "Actinium",
+    "wsstream": "acmusdt@ticker"
+  },
+  {
+    "symbol": "ADA",
+    "nom": "ADA the Dog",
+    "wsstream": "adausdt@ticker"
+  },
+  {
+    "symbol": "ADX",
+    "nom": "AdEx",
+    "wsstream": "adxusdt@ticker"
+  },
+  {
+    "symbol": "AGLD",
+    "nom": "Adventure Gold",
+    "wsstream": "agldusdt@ticker"
+  },
+  {
+    "symbol": "ELF",
+    "nom": "aelf",
+    "wsstream": "elfusdt@ticker"
+  },
+  {
+    "symbol": "AERGO",
+    "nom": "Aergo",
+    "wsstream": "aergousdt@ticker"
+  },
+  {
+    "symbol": "AE",
+    "nom": "Aeternity",
+    "wsstream": "aeusdt@ticker"
+  },
+  {
+    "symbol": "AEVO",
+    "nom": "Aevo",
+    "wsstream": "aevousdt@ticker"
+  },
+  {
+    "symbol": "AGI",
+    "nom": "Agility",
+    "wsstream": "agiusdt@ticker"
+  },
+  {
+    "symbol": "DLT",
+    "nom": "Agrello",
+    "wsstream": "dltusdt@ticker"
+  },
+  {
+    "symbol": "AI",
+    "nom": "AICoin",
+    "wsstream": "aiusdt@ticker"
+  },
+  {
+    "symbol": "AI",
+    "nom": "AI Community",
+    "wsstream": "aiusdt@ticker"
+  },
+  {
+    "symbol": "AION",
+    "nom": "Aion",
+    "wsstream": "aionusdt@ticker"
+  },
+  {
+    "symbol": "AI",
+    "nom": "AI PIN",
+    "wsstream": "aiusdt@ticker"
+  },
+  {
+    "symbol": "AST",
+    "nom": "AirSwap",
+    "wsstream": "astusdt@ticker"
+  },
+  {
+    "symbol": "AKRO",
+    "nom": "Akropolis",
+    "wsstream": "akrousdt@ticker"
+  },
+  {
+    "symbol": "ALCX",
+    "nom": "Alchemix",
+    "wsstream": "alcxusdt@ticker"
+  },
+  {
+    "symbol": "ACH",
+    "nom": "Alchemy Pay",
+    "wsstream": "achusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Alcor IBC Bridged USDT (WAX)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "ALGO",
+    "nom": "Algorand",
+    "wsstream": "algousdt@ticker"
+  },
+  {
+    "symbol": "ALGO",
+    "nom": "Algowave",
+    "wsstream": "algousdt@ticker"
+  },
+  {
+    "symbol": "ALICE",
+    "nom": "Alice AI",
+    "wsstream": "aliceusdt@ticker"
+  },
+  {
+    "symbol": "TLM",
+    "nom": "Alien Worlds",
+    "wsstream": "tlmusdt@ticker"
+  },
+  {
+    "symbol": "ALT",
+    "nom": "Alitas",
+    "wsstream": "altusdt@ticker"
+  },
+  {
+    "symbol": "ALPACA",
+    "nom": "Alpaca Finance",
+    "wsstream": "alpacausdt@ticker"
+  },
+  {
+    "symbol": "ALPHA",
+    "nom": "ALPHA",
+    "wsstream": "alphausdt@ticker"
+  },
+  {
+    "symbol": "ALT",
+    "nom": "Alphabet",
+    "wsstream": "altusdt@ticker"
+  },
+  {
+    "symbol": "ALPHA",
+    "nom": "Alpha Coin",
+    "wsstream": "alphausdt@ticker"
+  },
+  {
+    "symbol": "ALPHA",
+    "nom": "Stella",
+    "wsstream": "alphausdt@ticker"
+  },
+  {
+    "symbol": "ALPHA",
+    "nom": "Alpha Shards",
+    "wsstream": "alphausdt@ticker"
+  },
+  {
+    "symbol": "ALPINE",
+    "nom": "Alpine F1 Team Fan Token",
+    "wsstream": "alpineusdt@ticker"
+  },
+  {
+    "symbol": "ALT",
+    "nom": "AltLayer",
+    "wsstream": "altusdt@ticker"
+  },
+  {
+    "symbol": "AMB",
+    "nom": "AMBBi (Ordinals)",
+    "wsstream": "ambusdt@ticker"
+  },
+  {
+    "symbol": "AMB",
+    "nom": "AirDAO",
+    "wsstream": "ambusdt@ticker"
+  },
+  {
+    "symbol": "AMP",
+    "nom": "Amped Finance",
+    "wsstream": "ampusdt@ticker"
+  },
+  {
+    "symbol": "FORTH",
+    "nom": "Ampleforth Governance",
+    "wsstream": "forthusdt@ticker"
+  },
+  {
+    "symbol": "AMP",
+    "nom": "Amp",
+    "wsstream": "ampusdt@ticker"
+  },
+  {
+    "symbol": "AEUR",
+    "nom": "Anchored Coins AEUR",
+    "wsstream": "aeurusdt@ticker"
+  },
+  {
+    "symbol": "ANC",
+    "nom": "Anchor Protocol",
+    "wsstream": "ancusdt@ticker"
+  },
+  {
+    "symbol": "ANKR",
+    "nom": "Ankr Network",
+    "wsstream": "ankrusdt@ticker"
+  },
+  {
+    "symbol": "AI",
+    "nom": "Any Inu",
+    "wsstream": "aiusdt@ticker"
+  },
+  {
+    "symbol": "ANY",
+    "nom": "Anyswap",
+    "wsstream": "anyusdt@ticker"
+  },
+  {
+    "symbol": "APE",
+    "nom": "APE",
+    "wsstream": "apeusdt@ticker"
+  },
+  {
+    "symbol": "APE",
+    "nom": "Ape",
+    "wsstream": "apeusdt@ticker"
+  },
+  {
+    "symbol": "APE",
+    "nom": "ApeCoin",
+    "wsstream": "apeusdt@ticker"
+  },
+  {
+    "symbol": "APE",
+    "nom": "Ape.lol",
+    "wsstream": "apeusdt@ticker"
+  },
+  {
+    "symbol": "APE",
+    "nom": "Apetos",
+    "wsstream": "apeusdt@ticker"
+  },
+  {
+    "symbol": "API3",
+    "nom": "API3",
+    "wsstream": "api3usdt@ticker"
+  },
+  {
+    "symbol": "APT",
+    "nom": "Apidae",
+    "wsstream": "aptusdt@ticker"
+  },
+  {
+    "symbol": "ACE",
+    "nom": "Apollo Caps",
+    "wsstream": "aceusdt@ticker"
+  },
+  {
+    "symbol": "APPC",
+    "nom": "AppCoins",
+    "wsstream": "appcusdt@ticker"
+  },
+  {
+    "symbol": "APT",
+    "nom": "Aptos",
+    "wsstream": "aptusdt@ticker"
+  },
+  {
+    "symbol": "ALT",
+    "nom": "AptosLaunch Token",
+    "wsstream": "altusdt@ticker"
+  },
+  {
+    "symbol": "ANT",
+    "nom": "Aragon",
+    "wsstream": "antusdt@ticker"
+  },
+  {
+    "symbol": "ARB",
+    "nom": "Arbitrum",
+    "wsstream": "arbusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Arbitrum Bridged USDT (Arbitrum)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "ARB",
+    "nom": "ARB Protocol",
+    "wsstream": "arbusdt@ticker"
+  },
+  {
+    "symbol": "ARDR",
+    "nom": "Ardor",
+    "wsstream": "ardrusdt@ticker"
+  },
+  {
+    "symbol": "ARK",
+    "nom": "ARK",
+    "wsstream": "arkusdt@ticker"
+  },
+  {
+    "symbol": "ARKM",
+    "nom": "Arkham",
+    "wsstream": "arkmusdt@ticker"
+  },
+  {
+    "symbol": "ARPA",
+    "nom": "ARPA",
+    "wsstream": "arpausdt@ticker"
+  },
+  {
+    "symbol": "AI",
+    "nom": "Artificial Intelligence",
+    "wsstream": "aiusdt@ticker"
+  },
+  {
+    "symbol": "AR",
+    "nom": "Arweave",
+    "wsstream": "arusdt@ticker"
+  },
+  {
+    "symbol": "ASR",
+    "nom": "AS Roma Fan Token",
+    "wsstream": "asrusdt@ticker"
+  },
+  {
+    "symbol": "ASTR",
+    "nom": "Astar",
+    "wsstream": "astrusdt@ticker"
+  },
+  {
+    "symbol": "ATA",
+    "nom": "Atlas Aggregator",
+    "wsstream": "atausdt@ticker"
+  },
+  {
+    "symbol": "ATM",
+    "nom": "Atletico Madrid Fan Token",
+    "wsstream": "atmusdt@ticker"
+  },
+  {
+    "symbol": "AUCTION",
+    "nom": "Bounce",
+    "wsstream": "auctionusdt@ticker"
+  },
+  {
+    "symbol": "AUDIO",
+    "nom": "Audius",
+    "wsstream": "audiousdt@ticker"
+  },
+  {
+    "symbol": "AUDIO",
+    "nom": "Audius (Wormhole)",
+    "wsstream": "audiousdt@ticker"
+  },
+  {
+    "symbol": "REP",
+    "nom": "Augur",
+    "wsstream": "repusdt@ticker"
+  },
+  {
+    "symbol": "ARK",
+    "nom": "Aurinko Network",
+    "wsstream": "arkusdt@ticker"
+  },
+  {
+    "symbol": "IDEX",
+    "nom": "IDEX",
+    "wsstream": "idexusdt@ticker"
+  },
+  {
+    "symbol": "AUTO",
+    "nom": "Auto",
+    "wsstream": "autousdt@ticker"
+  },
+  {
+    "symbol": "ATA",
+    "nom": "Automata",
+    "wsstream": "atausdt@ticker"
+  },
+  {
+    "symbol": "AVA",
+    "nom": "AVA Foundation Bridged AVA (BSC)",
+    "wsstream": "avausdt@ticker"
+  },
+  {
+    "symbol": "AVAX",
+    "nom": "Avalanche",
+    "wsstream": "avaxusdt@ticker"
+  },
+  {
+    "symbol": "AVAX",
+    "nom": "Avalanche (Wormhole)",
+    "wsstream": "avaxusdt@ticker"
+  },
+  {
+    "symbol": "AXL",
+    "nom": "Axelar",
+    "wsstream": "axlusdt@ticker"
+  },
+  {
+    "symbol": "AXS",
+    "nom": "Axie Infinity",
+    "wsstream": "axsusdt@ticker"
+  },
+  {
+    "symbol": "AXL",
+    "nom": "AXL INU",
+    "wsstream": "axlusdt@ticker"
+  },
+  {
+    "symbol": "BB",
+    "nom": "Baby Bali",
+    "wsstream": "bbusdt@ticker"
+  },
+  {
+    "symbol": "BADGER",
+    "nom": "Badger",
+    "wsstream": "badgerusdt@ticker"
+  },
+  {
+    "symbol": "BAKE",
+    "nom": "BakerySwap",
+    "wsstream": "bakeusdt@ticker"
+  },
+  {
+    "symbol": "BAL",
+    "nom": "Balancer",
+    "wsstream": "balusdt@ticker"
+  },
+  {
+    "symbol": "BNT",
+    "nom": "Bancor Network",
+    "wsstream": "bntusdt@ticker"
+  },
+  {
+    "symbol": "BAND",
+    "nom": "Band Protocol",
+    "wsstream": "bandusdt@ticker"
+  },
+  {
+    "symbol": "BOND",
+    "nom": "BarnBridge",
+    "wsstream": "bondusdt@ticker"
+  },
+  {
+    "symbol": "BSW",
+    "nom": "BasedSwap",
+    "wsstream": "bswusdt@ticker"
+  },
+  {
+    "symbol": "BAT",
+    "nom": "Basic Attention",
+    "wsstream": "batusdt@ticker"
+  },
+  {
+    "symbol": "BTC",
+    "nom": "batcat",
+    "wsstream": "btcusdt@ticker"
+  },
+  {
+    "symbol": "BB",
+    "nom": "BB Gaming",
+    "wsstream": "bbusdt@ticker"
+  },
+  {
+    "symbol": "BEAM",
+    "nom": "BEAM",
+    "wsstream": "beamusdt@ticker"
+  },
+  {
+    "symbol": "BEAM",
+    "nom": "Beam",
+    "wsstream": "beamusdt@ticker"
+  },
+  {
+    "symbol": "AVAX",
+    "nom": "Beam Bridged AVAX (Beam)",
+    "wsstream": "avaxusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Beam Bridged USDC (Beam)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "BEAMX",
+    "nom": "BEAMX",
+    "wsstream": "beamxusdt@ticker"
+  },
+  {
+    "symbol": "BEAR",
+    "nom": "Bear",
+    "wsstream": "bearusdt@ticker"
+  },
+  {
+    "symbol": "BEAR",
+    "nom": "Bear",
+    "wsstream": "bearusdt@ticker"
+  },
+  {
+    "symbol": "BEAR",
+    "nom": "Bear Inu",
+    "wsstream": "bearusdt@ticker"
+  },
+  {
+    "symbol": "BEAR",
+    "nom": "Bear Scrub Money",
+    "wsstream": "bearusdt@ticker"
+  },
+  {
+    "symbol": "BIFI",
+    "nom": "Beefy",
+    "wsstream": "bifiusdt@ticker"
+  },
+  {
+    "symbol": "BEL",
+    "nom": "Bella Protocol",
+    "wsstream": "belusdt@ticker"
+  },
+  {
+    "symbol": "BEL",
+    "nom": "Bellscoin",
+    "wsstream": "belusdt@ticker"
+  },
+  {
+    "symbol": "BCN",
+    "nom": "Bemchain",
+    "wsstream": "bcnusdt@ticker"
+  },
+  {
+    "symbol": "QI",
+    "nom": "BENQI",
+    "wsstream": "qiusdt@ticker"
+  },
+  {
+    "symbol": "BETA",
+    "nom": "Beta Finance",
+    "wsstream": "betausdt@ticker"
+  },
+  {
+    "symbol": "BICO",
+    "nom": "Biconomy",
+    "wsstream": "bicousdt@ticker"
+  },
+  {
+    "symbol": "BIFI",
+    "nom": "BiFi",
+    "wsstream": "bifiusdt@ticker"
+  },
+  {
+    "symbol": "BTCB",
+    "nom": "Binance Bitcoin",
+    "wsstream": "btcbusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Binance Bridged USDC (BNB Smart Chain)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "BNB",
+    "nom": "BNB",
+    "wsstream": "bnbusdt@ticker"
+  },
+  {
+    "symbol": "BNB",
+    "nom": "Binance Coin (Wormhole)",
+    "wsstream": "bnbusdt@ticker"
+  },
+  {
+    "symbol": "BETH",
+    "nom": "Binance ETH staking",
+    "wsstream": "bethusdt@ticker"
+  },
+  {
+    "symbol": "AVAX",
+    "nom": "Binance-Peg Avalanche",
+    "wsstream": "avaxusdt@ticker"
+  },
+  {
+    "symbol": "BCH",
+    "nom": "Binance-Peg Bitcoin Cash",
+    "wsstream": "bchusdt@ticker"
+  },
+  {
+    "symbol": "BUSD",
+    "nom": "Binance-Peg BUSD",
+    "wsstream": "busdusdt@ticker"
+  },
+  {
+    "symbol": "ADA",
+    "nom": "Binance-Peg Cardano",
+    "wsstream": "adausdt@ticker"
+  },
+  {
+    "symbol": "DOGE",
+    "nom": "Binance-Peg Dogecoin",
+    "wsstream": "dogeusdt@ticker"
+  },
+  {
+    "symbol": "EOS",
+    "nom": "Binance-Peg EOS",
+    "wsstream": "eosusdt@ticker"
+  },
+  {
+    "symbol": "FIL",
+    "nom": "Binance-Peg Filecoin",
+    "wsstream": "filusdt@ticker"
+  },
+  {
+    "symbol": "FIRO",
+    "nom": "Binance-Peg Firo",
+    "wsstream": "firousdt@ticker"
+  },
+  {
+    "symbol": "IOTX",
+    "nom": "Binance-Peg IoTeX",
+    "wsstream": "iotxusdt@ticker"
+  },
+  {
+    "symbol": "LTC",
+    "nom": "Binance-Peg Litecoin",
+    "wsstream": "ltcusdt@ticker"
+  },
+  {
+    "symbol": "ONT",
+    "nom": "Binance-Peg Ontology",
+    "wsstream": "ontusdt@ticker"
+  },
+  {
+    "symbol": "DOT",
+    "nom": "Binance-Peg Polkadot",
+    "wsstream": "dotusdt@ticker"
+  },
+  {
+    "symbol": "XRP",
+    "nom": "Binance-Peg XRP",
+    "wsstream": "xrpusdt@ticker"
+  },
+  {
+    "symbol": "BUSD",
+    "nom": "BUSD",
+    "wsstream": "busdusdt@ticker"
+  },
+  {
+    "symbol": "BUSD",
+    "nom": "Binance USD (Linea)",
+    "wsstream": "busdusdt@ticker"
+  },
+  {
+    "symbol": "BNX",
+    "nom": "BinaryX [OLD]",
+    "wsstream": "bnxusdt@ticker"
+  },
+  {
+    "symbol": "BNX",
+    "nom": "BinaryX",
+    "wsstream": "bnxusdt@ticker"
+  },
+  {
+    "symbol": "BSW",
+    "nom": "Biswap",
+    "wsstream": "bswusdt@ticker"
+  },
+  {
+    "symbol": "BTC",
+    "nom": "Bitcoin",
+    "wsstream": "btcusdt@ticker"
+  },
+  {
+    "symbol": "BTC",
+    "nom": "bitcoin (2015 Wrapper) (Meme)",
+    "wsstream": "btcusdt@ticker"
+  },
+  {
+    "symbol": "BCH",
+    "nom": "Bitcoin Cash",
+    "wsstream": "bchusdt@ticker"
+  },
+  {
+    "symbol": "BCD",
+    "nom": "Bitcoin Diamond",
+    "wsstream": "bcdusdt@ticker"
+  },
+  {
+    "symbol": "BTG",
+    "nom": "Bitcoin Gold",
+    "wsstream": "btgusdt@ticker"
+  },
+  {
+    "symbol": "BTCB",
+    "nom": "Bitcoin on Base",
+    "wsstream": "btcbusdt@ticker"
+  },
+  {
+    "symbol": "BTS",
+    "nom": "BitShares",
+    "wsstream": "btsusdt@ticker"
+  },
+  {
+    "symbol": "TAO",
+    "nom": "Bittensor",
+    "wsstream": "taousdt@ticker"
+  },
+  {
+    "symbol": "BTT",
+    "nom": "BitTorrent",
+    "wsstream": "bttusdt@ticker"
+  },
+  {
+    "symbol": "BTC",
+    "nom": "BlackrockTradingCurrency",
+    "wsstream": "btcusdt@ticker"
+  },
+  {
+    "symbol": "BCD",
+    "nom": "BlockChat",
+    "wsstream": "bcdusdt@ticker"
+  },
+  {
+    "symbol": "STX",
+    "nom": "Stacks",
+    "wsstream": "stxusdt@ticker"
+  },
+  {
+    "symbol": "CDT",
+    "nom": "Blox",
+    "wsstream": "cdtusdt@ticker"
+  },
+  {
+    "symbol": "BLUR",
+    "nom": "Blur",
+    "wsstream": "blurusdt@ticker"
+  },
+  {
+    "symbol": "BLZ",
+    "nom": "Bluzelle",
+    "wsstream": "blzusdt@ticker"
+  },
+  {
+    "symbol": "FIDA",
+    "nom": "Bonfida",
+    "wsstream": "fidausdt@ticker"
+  },
+  {
+    "symbol": "BONK",
+    "nom": "Bonk",
+    "wsstream": "bonkusdt@ticker"
+  },
+  {
+    "symbol": "BONK",
+    "nom": "BONK BITCOIN (Ordinals)",
+    "wsstream": "bonkusdt@ticker"
+  },
+  {
+    "symbol": "BONK",
+    "nom": "Bonk On Base",
+    "wsstream": "bonkusdt@ticker"
+  },
+  {
+    "symbol": "BONK",
+    "nom": "BONK on ETH",
+    "wsstream": "bonkusdt@ticker"
+  },
+  {
+    "symbol": "BB",
+    "nom": "BookieBot",
+    "wsstream": "bbusdt@ticker"
+  },
+  {
+    "symbol": "BOME",
+    "nom": "BOOK OF MEME",
+    "wsstream": "bomeusdt@ticker"
+  },
+  {
+    "symbol": "BB",
+    "nom": "BounceBit",
+    "wsstream": "bbusdt@ticker"
+  },
+  {
+    "symbol": "BRD",
+    "nom": "Board",
+    "wsstream": "brdusdt@ticker"
+  },
+  {
+    "symbol": "BRD",
+    "nom": "Bread",
+    "wsstream": "brdusdt@ticker"
+  },
+  {
+    "symbol": "ETH",
+    "nom": "Bridged Binance-Peg Ethereum (opBNB)",
+    "wsstream": "ethusdt@ticker"
+  },
+  {
+    "symbol": "BNB",
+    "nom": "Bridged BNB (Fuse)",
+    "wsstream": "bnbusdt@ticker"
+  },
+  {
+    "symbol": "BUSD",
+    "nom": "Bridged BUSD",
+    "wsstream": "busdusdt@ticker"
+  },
+  {
+    "symbol": "CRV",
+    "nom": "Bridged Curve DAO Token (Stargate)",
+    "wsstream": "crvusdt@ticker"
+  },
+  {
+    "symbol": "DAI",
+    "nom": "Bridged Dai Stablecoin (Linea)",
+    "wsstream": "daiusdt@ticker"
+  },
+  {
+    "symbol": "DAI",
+    "nom": "Bridged Dai Stablecoin (StarkGate)",
+    "wsstream": "daiusdt@ticker"
+  },
+  {
+    "symbol": "MATIC",
+    "nom": "Bridged MATIC (Fuse)",
+    "wsstream": "maticusdt@ticker"
+  },
+  {
+    "symbol": "MATIC",
+    "nom": "Bridged MATIC (Manta Pacific)",
+    "wsstream": "maticusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Bridged Tether (Fuse)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Bridged Tether (Linea)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Bridged Tether (Manta Pacific)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Bridged Tether (opBNB)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Bridged Tether (Scroll)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Bridged Tether (Stargate)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Bridged Tether (StarkGate)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "TUSD",
+    "nom": "Bridged TrueUSD",
+    "wsstream": "tusdusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Bridged USDC",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Bridged USDC (Chainport)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Bridged USDC (Core)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Bridged USDC (Fuse)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Bridged USDC (Immutable zkEVM)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Bridged USD Coin (Linea)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Bridged USD Coin (Manta Pacific)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Bridged USD Coin (Scroll)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Bridged USD Coin (StarkGate)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Bridged USDT",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Bridged USDT (Core)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Bridged USDT (Immutable zkEVM)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "WBTC",
+    "nom": "Bridged Wrapped Bitcoin (Manta Pacific)",
+    "wsstream": "wbtcusdt@ticker"
+  },
+  {
+    "symbol": "WBTC",
+    "nom": "Bridged Wrapped Bitcoin (Scroll)",
+    "wsstream": "wbtcusdt@ticker"
+  },
+  {
+    "symbol": "WBTC",
+    "nom": "Bridged Wrapped Bitcoin (Stargate)",
+    "wsstream": "wbtcusdt@ticker"
+  },
+  {
+    "symbol": "WBTC",
+    "nom": "Bridged Wrapped Bitcoin (StarkGate)",
+    "wsstream": "wbtcusdt@ticker"
+  },
+  {
+    "symbol": "WBTC",
+    "nom": "Bridged Wrapped BTC (BEVM)",
+    "wsstream": "wbtcusdt@ticker"
+  },
+  {
+    "symbol": "ETH",
+    "nom": "Bridged Ether (StarkGate)",
+    "wsstream": "ethusdt@ticker"
+  },
+  {
+    "symbol": "BTCST",
+    "nom": "BTC Standard Hashrate Token",
+    "wsstream": "btcstusdt@ticker"
+  },
+  {
+    "symbol": "BULL",
+    "nom": "BullBar",
+    "wsstream": "bullusdt@ticker"
+  },
+  {
+    "symbol": "BULL",
+    "nom": "Bull Coin",
+    "wsstream": "bullusdt@ticker"
+  },
+  {
+    "symbol": "BULL",
+    "nom": "BullcoinBSC",
+    "wsstream": "bullusdt@ticker"
+  },
+  {
+    "symbol": "BULL",
+    "nom": "Bull Frog",
+    "wsstream": "bullusdt@ticker"
+  },
+  {
+    "symbol": "BULL",
+    "nom": "Bullieverse",
+    "wsstream": "bullusdt@ticker"
+  },
+  {
+    "symbol": "BULL",
+    "nom": "Bull Run",
+    "wsstream": "bullusdt@ticker"
+  },
+  {
+    "symbol": "BULL",
+    "nom": "Bull Token",
+    "wsstream": "bullusdt@ticker"
+  },
+  {
+    "symbol": "BULL",
+    "nom": "BullVerse",
+    "wsstream": "bullusdt@ticker"
+  },
+  {
+    "symbol": "BURGER",
+    "nom": "BurgerCities",
+    "wsstream": "burgerusdt@ticker"
+  },
+  {
+    "symbol": "BCN",
+    "nom": "Bytecoin",
+    "wsstream": "bcnusdt@ticker"
+  },
+  {
+    "symbol": "BZRX",
+    "nom": "bZx Protocol",
+    "wsstream": "bzrxusdt@ticker"
+  },
+  {
+    "symbol": "ADA",
+    "nom": "Cardano",
+    "wsstream": "adausdt@ticker"
+  },
+  {
+    "symbol": "CTSI",
+    "nom": "Cartesi",
+    "wsstream": "ctsiusdt@ticker"
+  },
+  {
+    "symbol": "COS",
+    "nom": "Cats Of Sol",
+    "wsstream": "cosusdt@ticker"
+  },
+  {
+    "symbol": "BUSD",
+    "nom": "Celer Bridged BUSD (zkSync)",
+    "wsstream": "busdusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Celer Bridged USDC (Astar)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Celer Bridged USDC (Conflux)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Celer Bridged USDC (Oasys)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Celer Bridged USDT (Conflux)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "CELR",
+    "nom": "Celer Network",
+    "wsstream": "celrusdt@ticker"
+  },
+  {
+    "symbol": "TIA",
+    "nom": "Celestia",
+    "wsstream": "tiausdt@ticker"
+  },
+  {
+    "symbol": "CELO",
+    "nom": "Celo",
+    "wsstream": "celousdt@ticker"
+  },
+  {
+    "symbol": "CELO",
+    "nom": "Celo (Wormhole)",
+    "wsstream": "celousdt@ticker"
+  },
+  {
+    "symbol": "CTK",
+    "nom": "Shentu",
+    "wsstream": "ctkusdt@ticker"
+  },
+  {
+    "symbol": "LINK",
+    "nom": "Chainlink",
+    "wsstream": "linkusdt@ticker"
+  },
+  {
+    "symbol": "AI",
+    "nom": "Chat AI",
+    "wsstream": "aiusdt@ticker"
+  },
+  {
+    "symbol": "CDT",
+    "nom": "CheckDot",
+    "wsstream": "cdtusdt@ticker"
+  },
+  {
+    "symbol": "CHESS",
+    "nom": "ChessCoin 0.32%",
+    "wsstream": "chessusdt@ticker"
+  },
+  {
+    "symbol": "CHZ",
+    "nom": "Chiliz",
+    "wsstream": "chzusdt@ticker"
+  },
+  {
+    "symbol": "CHR",
+    "nom": "Chromia",
+    "wsstream": "chrusdt@ticker"
+  },
+  {
+    "symbol": "CHR",
+    "nom": "Chronos Finance",
+    "wsstream": "chrusdt@ticker"
+  },
+  {
+    "symbol": "CND",
+    "nom": "Cindicator",
+    "wsstream": "cndusdt@ticker"
+  },
+  {
+    "symbol": "CVC",
+    "nom": "Civic",
+    "wsstream": "cvcusdt@ticker"
+  },
+  {
+    "symbol": "CLV",
+    "nom": "Clevernode",
+    "wsstream": "clvusdt@ticker"
+  },
+  {
+    "symbol": "CLOAK",
+    "nom": "Cloak",
+    "wsstream": "cloakusdt@ticker"
+  },
+  {
+    "symbol": "CLOAK",
+    "nom": "Cloakcoin",
+    "wsstream": "cloakusdt@ticker"
+  },
+  {
+    "symbol": "CLV",
+    "nom": "Clover Finance",
+    "wsstream": "clvusdt@ticker"
+  },
+  {
+    "symbol": "COMBO",
+    "nom": "COMBO",
+    "wsstream": "combousdt@ticker"
+  },
+  {
+    "symbol": "C98",
+    "nom": "Coin98",
+    "wsstream": "c98usdt@ticker"
+  },
+  {
+    "symbol": "CND",
+    "nom": "Coinhound",
+    "wsstream": "cndusdt@ticker"
+  },
+  {
+    "symbol": "CDT",
+    "nom": "Collateralized Debt Token",
+    "wsstream": "cdtusdt@ticker"
+  },
+  {
+    "symbol": "COMP",
+    "nom": "Compound",
+    "wsstream": "compusdt@ticker"
+  },
+  {
+    "symbol": "CVP",
+    "nom": "PowerPool Concentrated Voting Power",
+    "wsstream": "cvpusdt@ticker"
+  },
+  {
+    "symbol": "AVA",
+    "nom": "AVA",
+    "wsstream": "avausdt@ticker"
+  },
+  {
+    "symbol": "CFX",
+    "nom": "Conflux",
+    "wsstream": "cfxusdt@ticker"
+  },
+  {
+    "symbol": "PEOPLE",
+    "nom": "ConstitutionDAO",
+    "wsstream": "peopleusdt@ticker"
+  },
+  {
+    "symbol": "PEOPLE",
+    "nom": "ConstitutionDAO (Wormhole)",
+    "wsstream": "peopleusdt@ticker"
+  },
+  {
+    "symbol": "COS",
+    "nom": "Contentos",
+    "wsstream": "cosusdt@ticker"
+  },
+  {
+    "symbol": "CVX",
+    "nom": "Convex Finance",
+    "wsstream": "cvxusdt@ticker"
+  },
+  {
+    "symbol": "CMT",
+    "nom": "CornerMarket",
+    "wsstream": "cmtusdt@ticker"
+  },
+  {
+    "symbol": "CTXC",
+    "nom": "Cortex",
+    "wsstream": "ctxcusdt@ticker"
+  },
+  {
+    "symbol": "CFX",
+    "nom": "Cosmic Force Token v2",
+    "wsstream": "cfxusdt@ticker"
+  },
+  {
+    "symbol": "ATOM",
+    "nom": "Cosmos Hub",
+    "wsstream": "atomusdt@ticker"
+  },
+  {
+    "symbol": "COTI",
+    "nom": "COTI",
+    "wsstream": "cotiusdt@ticker"
+  },
+  {
+    "symbol": "CREAM",
+    "nom": "Cream",
+    "wsstream": "creamusdt@ticker"
+  },
+  {
+    "symbol": "CREAM",
+    "nom": "Creamlands",
+    "wsstream": "creamusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Cronos Bridged USDC (Cronos)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Cronos Bridged USDT (Cronos)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "SAGA",
+    "nom": "CryptoSaga",
+    "wsstream": "sagausdt@ticker"
+  },
+  {
+    "symbol": "CTK",
+    "nom": "Cryptyk",
+    "wsstream": "ctkusdt@ticker"
+  },
+  {
+    "symbol": "CRV",
+    "nom": "Curve DAO",
+    "wsstream": "crvusdt@ticker"
+  },
+  {
+    "symbol": "CYBER",
+    "nom": "CYBER",
+    "wsstream": "cyberusdt@ticker"
+  },
+  {
+    "symbol": "CYBER",
+    "nom": "Cyberpunk City",
+    "wsstream": "cyberusdt@ticker"
+  },
+  {
+    "symbol": "DAI",
+    "nom": "Dai",
+    "wsstream": "daiusdt@ticker"
+  },
+  {
+    "symbol": "DAI",
+    "nom": "DAI on PulseChain",
+    "wsstream": "daiusdt@ticker"
+  },
+  {
+    "symbol": "DAI",
+    "nom": "Bridged DAI (PulseChain)",
+    "wsstream": "daiusdt@ticker"
+  },
+  {
+    "symbol": "SKY",
+    "nom": "DarkCrypto Share",
+    "wsstream": "skyusdt@ticker"
+  },
+  {
+    "symbol": "DASH",
+    "nom": "Dash",
+    "wsstream": "dashusdt@ticker"
+  },
+  {
+    "symbol": "DATA",
+    "nom": "DataBot",
+    "wsstream": "datausdt@ticker"
+  },
+  {
+    "symbol": "MANA",
+    "nom": "Decentraland",
+    "wsstream": "manausdt@ticker"
+  },
+  {
+    "symbol": "MANA",
+    "nom": "Decentraland (Wormhole)",
+    "wsstream": "manausdt@ticker"
+  },
+  {
+    "symbol": "DCR",
+    "nom": "Decred",
+    "wsstream": "dcrusdt@ticker"
+  },
+  {
+    "symbol": "DEGO",
+    "nom": "Dego Finance",
+    "wsstream": "degousdt@ticker"
+  },
+  {
+    "symbol": "AGI",
+    "nom": "Delysium",
+    "wsstream": "agiusdt@ticker"
+  },
+  {
+    "symbol": "DENT",
+    "nom": "Dent",
+    "wsstream": "dentusdt@ticker"
+  },
+  {
+    "symbol": "DEXE",
+    "nom": "DeXe",
+    "wsstream": "dexeusdt@ticker"
+  },
+  {
+    "symbol": "DF",
+    "nom": "dForce",
+    "wsstream": "dfusdt@ticker"
+  },
+  {
+    "symbol": "DIA",
+    "nom": "DIA",
+    "wsstream": "diausdt@ticker"
+  },
+  {
+    "symbol": "DCR",
+    "nom": "Diecast Racer",
+    "wsstream": "dcrusdt@ticker"
+  },
+  {
+    "symbol": "DGB",
+    "nom": "DigiByte",
+    "wsstream": "dgbusdt@ticker"
+  },
+  {
+    "symbol": "DAR",
+    "nom": "Digital Asset Right Token",
+    "wsstream": "darusdt@ticker"
+  },
+  {
+    "symbol": "DNT",
+    "nom": "district0x",
+    "wsstream": "dntusdt@ticker"
+  },
+  {
+    "symbol": "DOCK",
+    "nom": "Dock",
+    "wsstream": "dockusdt@ticker"
+  },
+  {
+    "symbol": "DODO",
+    "nom": "DODO",
+    "wsstream": "dodousdt@ticker"
+  },
+  {
+    "symbol": "DODO",
+    "nom": "DODO",
+    "wsstream": "dodousdt@ticker"
+  },
+  {
+    "symbol": "DOGE",
+    "nom": "Dogecoin",
+    "wsstream": "dogeusdt@ticker"
+  },
+  {
+    "symbol": "DOGE",
+    "nom": "Doge on Pulsechain",
+    "wsstream": "dogeusdt@ticker"
+  },
+  {
+    "symbol": "DAI",
+    "nom": "DogeZilla Ai",
+    "wsstream": "daiusdt@ticker"
+  },
+  {
+    "symbol": "WIF",
+    "nom": "dogwifhat",
+    "wsstream": "wifusdt@ticker"
+  },
+  {
+    "symbol": "WIF",
+    "nom": "DogWifHat",
+    "wsstream": "wifusdt@ticker"
+  },
+  {
+    "symbol": "WIF",
+    "nom": "DOGWIFHOOD",
+    "wsstream": "wifusdt@ticker"
+  },
+  {
+    "symbol": "DREP",
+    "nom": "Drep",
+    "wsstream": "drepusdt@ticker"
+  },
+  {
+    "symbol": "DUSK",
+    "nom": "Dusk",
+    "wsstream": "duskusdt@ticker"
+  },
+  {
+    "symbol": "DYDX",
+    "nom": "dYdX",
+    "wsstream": "dydxusdt@ticker"
+  },
+  {
+    "symbol": "DYDX",
+    "nom": "dYdX (Wormhole)",
+    "wsstream": "dydxusdt@ticker"
+  },
+  {
+    "symbol": "DYM",
+    "nom": "Dymension",
+    "wsstream": "dymusdt@ticker"
+  },
+  {
+    "symbol": "EZ",
+    "nom": "EasyFi V2",
+    "wsstream": "ezusdt@ticker"
+  },
+  {
+    "symbol": "XEC",
+    "nom": "eCash",
+    "wsstream": "xecusdt@ticker"
+  },
+  {
+    "symbol": "EDU",
+    "nom": "Open Campus",
+    "wsstream": "eduusdt@ticker"
+  },
+  {
+    "symbol": "EPS",
+    "nom": "Ellipsis [OLD]",
+    "wsstream": "epsusdt@ticker"
+  },
+  {
+    "symbol": "EPX",
+    "nom": "Ellipsis X",
+    "wsstream": "epxusdt@ticker"
+  },
+  {
+    "symbol": "EGLD",
+    "nom": "MultiversX",
+    "wsstream": "egldusdt@ticker"
+  },
+  {
+    "symbol": "ACE",
+    "nom": "Fusionist",
+    "wsstream": "aceusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Energi Bridged USDC (Energi)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "ENG",
+    "nom": "Eng Crypto",
+    "wsstream": "engusdt@ticker"
+  },
+  {
+    "symbol": "ENG",
+    "nom": "England Coin",
+    "wsstream": "engusdt@ticker"
+  },
+  {
+    "symbol": "ENG",
+    "nom": "Enigma",
+    "wsstream": "engusdt@ticker"
+  },
+  {
+    "symbol": "ENG",
+    "nom": "Enigma Gaming",
+    "wsstream": "engusdt@ticker"
+  },
+  {
+    "symbol": "ENJ",
+    "nom": "Enjin Coin",
+    "wsstream": "enjusdt@ticker"
+  },
+  {
+    "symbol": "EOS",
+    "nom": "EOS",
+    "wsstream": "eosusdt@ticker"
+  },
+  {
+    "symbol": "ETHDOWN",
+    "nom": "ETHDOWN",
+    "wsstream": "ethdownusdt@ticker"
+  },
+  {
+    "symbol": "ENA",
+    "nom": "Ethena",
+    "wsstream": "enausdt@ticker"
+  },
+  {
+    "symbol": "ETH",
+    "nom": "Ethereum",
+    "wsstream": "ethusdt@ticker"
+  },
+  {
+    "symbol": "ETC",
+    "nom": "Ethereum Classic",
+    "wsstream": "etcusdt@ticker"
+  },
+  {
+    "symbol": "ENS",
+    "nom": "Ethereum Name Service",
+    "wsstream": "ensusdt@ticker"
+  },
+  {
+    "symbol": "ETH",
+    "nom": "Ethereum (Wormhole)",
+    "wsstream": "ethusdt@ticker"
+  },
+  {
+    "symbol": "ETHFI",
+    "nom": "Ether.fi",
+    "wsstream": "ethfiusdt@ticker"
+  },
+  {
+    "symbol": "ERN",
+    "nom": "Ethernity Chain",
+    "wsstream": "ernusdt@ticker"
+  },
+  {
+    "symbol": "FUEL",
+    "nom": "Etherparty",
+    "wsstream": "fuelusdt@ticker"
+  },
+  {
+    "symbol": "LEND",
+    "nom": "Aave [OLD]",
+    "wsstream": "lendusdt@ticker"
+  },
+  {
+    "symbol": "VGX",
+    "nom": "VGX Token",
+    "wsstream": "vgxusdt@ticker"
+  },
+  {
+    "symbol": "ERN",
+    "nom": "Ethos Reserve Note",
+    "wsstream": "ernusdt@ticker"
+  },
+  {
+    "symbol": "ETHUP",
+    "nom": "ETHUP",
+    "wsstream": "ethupusdt@ticker"
+  },
+  {
+    "symbol": "EVX",
+    "nom": "Everex",
+    "wsstream": "evxusdt@ticker"
+  },
+  {
+    "symbol": "ID",
+    "nom": "Everest",
+    "wsstream": "idusdt@ticker"
+  },
+  {
+    "symbol": "IQ",
+    "nom": "IQ",
+    "wsstream": "iqusdt@ticker"
+  },
+  {
+    "symbol": "EZ",
+    "nom": "EZ Pepe",
+    "wsstream": "ezusdt@ticker"
+  },
+  {
+    "symbol": "FTM",
+    "nom": "Fantom",
+    "wsstream": "ftmusdt@ticker"
+  },
+  {
+    "symbol": "FARM",
+    "nom": "FarmBot",
+    "wsstream": "farmusdt@ticker"
+  },
+  {
+    "symbol": "BAR",
+    "nom": "FC Barcelona Fan Token",
+    "wsstream": "barusdt@ticker"
+  },
+  {
+    "symbol": "PORTO",
+    "nom": "FC Porto",
+    "wsstream": "portousdt@ticker"
+  },
+  {
+    "symbol": "FET",
+    "nom": "Artificial Superintelligence Alliance",
+    "wsstream": "fetusdt@ticker"
+  },
+  {
+    "symbol": "FIL",
+    "nom": "Filecoin",
+    "wsstream": "filusdt@ticker"
+  },
+  {
+    "symbol": "FIO",
+    "nom": "FIO Protocol",
+    "wsstream": "fiousdt@ticker"
+  },
+  {
+    "symbol": "FDUSD",
+    "nom": "First Digital USD",
+    "wsstream": "fdusdusdt@ticker"
+  },
+  {
+    "symbol": "FLM",
+    "nom": "Flamingo Finance",
+    "wsstream": "flmusdt@ticker"
+  },
+  {
+    "symbol": "FTT",
+    "nom": "FTT Token",
+    "wsstream": "fttusdt@ticker"
+  },
+  {
+    "symbol": "FLOKI",
+    "nom": "FLOKI",
+    "wsstream": "flokiusdt@ticker"
+  },
+  {
+    "symbol": "FLOKI",
+    "nom": "Flokiwifhat",
+    "wsstream": "flokiusdt@ticker"
+  },
+  {
+    "symbol": "AI",
+    "nom": "Flourishing AI",
+    "wsstream": "aiusdt@ticker"
+  },
+  {
+    "symbol": "FLOW",
+    "nom": "Flow",
+    "wsstream": "flowusdt@ticker"
+  },
+  {
+    "symbol": "FLOW",
+    "nom": "Flower",
+    "wsstream": "flowusdt@ticker"
+  },
+  {
+    "symbol": "FLUX",
+    "nom": "Datamine FLUX",
+    "wsstream": "fluxusdt@ticker"
+  },
+  {
+    "symbol": "FLUX",
+    "nom": "Flux Protocol",
+    "wsstream": "fluxusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Bridged USD Coin (Force Bridge)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "FOR",
+    "nom": "ForTube",
+    "wsstream": "forusdt@ticker"
+  },
+  {
+    "symbol": "FOR",
+    "nom": "Fortuna Sittard Fan Token",
+    "wsstream": "forusdt@ticker"
+  },
+  {
+    "symbol": "FXS",
+    "nom": "Frax Share",
+    "wsstream": "fxsusdt@ticker"
+  },
+  {
+    "symbol": "FRONT",
+    "nom": "Frontier",
+    "wsstream": "frontusdt@ticker"
+  },
+  {
+    "symbol": "FTT",
+    "nom": "FTX",
+    "wsstream": "fttusdt@ticker"
+  },
+  {
+    "symbol": "FUEL",
+    "nom": "Fuel Network",
+    "wsstream": "fuelusdt@ticker"
+  },
+  {
+    "symbol": "FUN",
+    "nom": "FUNToken",
+    "wsstream": "funusdt@ticker"
+  },
+  {
+    "symbol": "COMBO",
+    "nom": "Furucombo",
+    "wsstream": "combousdt@ticker"
+  },
+  {
+    "symbol": "TAO",
+    "nom": "Fusotao",
+    "wsstream": "taousdt@ticker"
+  },
+  {
+    "symbol": "GNS",
+    "nom": "Gains Network",
+    "wsstream": "gnsusdt@ticker"
+  },
+  {
+    "symbol": "GALA",
+    "nom": "GALA",
+    "wsstream": "galausdt@ticker"
+  },
+  {
+    "symbol": "GAL",
+    "nom": "Galatasaray Fan Token",
+    "wsstream": "galusdt@ticker"
+  },
+  {
+    "symbol": "GTC",
+    "nom": "Game",
+    "wsstream": "gtcusdt@ticker"
+  },
+  {
+    "symbol": "GTC",
+    "nom": "GameCraft",
+    "wsstream": "gtcusdt@ticker"
+  },
+  {
+    "symbol": "GFT",
+    "nom": "Game Fantasy",
+    "wsstream": "gftusdt@ticker"
+  },
+  {
+    "symbol": "GAS",
+    "nom": "Gas",
+    "wsstream": "gasusdt@ticker"
+  },
+  {
+    "symbol": "GAS",
+    "nom": "Gas DAO",
+    "wsstream": "gasusdt@ticker"
+  },
+  {
+    "symbol": "GTC",
+    "nom": "GastroCoin",
+    "wsstream": "gtcusdt@ticker"
+  },
+  {
+    "symbol": "GNT",
+    "nom": "Genit Chain",
+    "wsstream": "gntusdt@ticker"
+  },
+  {
+    "symbol": "GFT",
+    "nom": "Gifto",
+    "wsstream": "gftusdt@ticker"
+  },
+  {
+    "symbol": "GTC",
+    "nom": "Gitcoin",
+    "wsstream": "gtcusdt@ticker"
+  },
+  {
+    "symbol": "GTC",
+    "nom": "Global Trust Coin",
+    "wsstream": "gtcusdt@ticker"
+  },
+  {
+    "symbol": "GMX",
+    "nom": "GMX",
+    "wsstream": "gmxusdt@ticker"
+  },
+  {
+    "symbol": "GNO",
+    "nom": "Gnosis",
+    "wsstream": "gnousdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Gnosis xDAI Bridged USDC (Gnosis)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Gnosis xDai Bridged USDT (Gnosis)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "GO",
+    "nom": "GoChain",
+    "wsstream": "gousdt@ticker"
+  },
+  {
+    "symbol": "GLM",
+    "nom": "Golem",
+    "wsstream": "glmusdt@ticker"
+  },
+  {
+    "symbol": "AI",
+    "nom": "GPT AI",
+    "wsstream": "aiusdt@ticker"
+  },
+  {
+    "symbol": "GNT",
+    "nom": "GreenTrust",
+    "wsstream": "gntusdt@ticker"
+  },
+  {
+    "symbol": "GRS",
+    "nom": "Groestlcoin",
+    "wsstream": "grsusdt@ticker"
+  },
+  {
+    "symbol": "XAI",
+    "nom": "Grok",
+    "wsstream": "xaiusdt@ticker"
+  },
+  {
+    "symbol": "WIF",
+    "nom": "HAMSTER WIF HAT",
+    "wsstream": "wifusdt@ticker"
+  },
+  {
+    "symbol": "ONE",
+    "nom": "Harmony",
+    "wsstream": "oneusdt@ticker"
+  },
+  {
+    "symbol": "BUSD",
+    "nom": "Harmony Horizen Bridged BUSD (Harmony)",
+    "wsstream": "busdusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Harmony Horizen Bridged USDC (Harmony)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "XRP",
+    "nom": "HarryPotterObamaPacMan8Inu",
+    "wsstream": "xrpusdt@ticker"
+  },
+  {
+    "symbol": "FARM",
+    "nom": "Harvest Finance",
+    "wsstream": "farmusdt@ticker"
+  },
+  {
+    "symbol": "HFT",
+    "nom": "Hashflow",
+    "wsstream": "hftusdt@ticker"
+  },
+  {
+    "symbol": "SNX",
+    "nom": "Synthetix Network",
+    "wsstream": "snxusdt@ticker"
+  },
+  {
+    "symbol": "HBAR",
+    "nom": "Hedera",
+    "wsstream": "hbarusdt@ticker"
+  },
+  {
+    "symbol": "HEGIC",
+    "nom": "Hegic",
+    "wsstream": "hegicusdt@ticker"
+  },
+  {
+    "symbol": "HNT",
+    "nom": "Helium",
+    "wsstream": "hntusdt@ticker"
+  },
+  {
+    "symbol": "HIFI",
+    "nom": "Hifi Finance",
+    "wsstream": "hifiusdt@ticker"
+  },
+  {
+    "symbol": "HIGH",
+    "nom": "High",
+    "wsstream": "highusdt@ticker"
+  },
+  {
+    "symbol": "HIGH",
+    "nom": "Highstreet",
+    "wsstream": "highusdt@ticker"
+  },
+  {
+    "symbol": "HIVE",
+    "nom": "Hive",
+    "wsstream": "hiveusdt@ticker"
+  },
+  {
+    "symbol": "HFT",
+    "nom": "Hodl Finance",
+    "wsstream": "hftusdt@ticker"
+  },
+  {
+    "symbol": "HOT",
+    "nom": "Holo",
+    "wsstream": "hotusdt@ticker"
+  },
+  {
+    "symbol": "HOOK",
+    "nom": "Hooked Protocol",
+    "wsstream": "hookusdt@ticker"
+  },
+  {
+    "symbol": "HC",
+    "nom": "HyperCash",
+    "wsstream": "hcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Huobi Bridged USDT (Heco Chain)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "IBC Bridged USDC",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "IBC Bridged USDT",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "ICX",
+    "nom": "ICON",
+    "wsstream": "icxusdt@ticker"
+  },
+  {
+    "symbol": "ICX",
+    "nom": "IC-X",
+    "wsstream": "icxusdt@ticker"
+  },
+  {
+    "symbol": "IO",
+    "nom": "IO",
+    "wsstream": "iousdt@ticker"
+  },
+  {
+    "symbol": "RLC",
+    "nom": "iExec RLC",
+    "wsstream": "rlcusdt@ticker"
+  },
+  {
+    "symbol": "ILV",
+    "nom": "Illuvium",
+    "wsstream": "ilvusdt@ticker"
+  },
+  {
+    "symbol": "IMX",
+    "nom": "Immutable",
+    "wsstream": "imxusdt@ticker"
+  },
+  {
+    "symbol": "ETH",
+    "nom": "Immutable zkEVM Bridged ETH",
+    "wsstream": "ethusdt@ticker"
+  },
+  {
+    "symbol": "INS",
+    "nom": "iNFTspace",
+    "wsstream": "insusdt@ticker"
+  },
+  {
+    "symbol": "INJ",
+    "nom": "Injective",
+    "wsstream": "injusdt@ticker"
+  },
+  {
+    "symbol": "INS",
+    "nom": "Inscribe",
+    "wsstream": "insusdt@ticker"
+  },
+  {
+    "symbol": "INS",
+    "nom": "INSECT",
+    "wsstream": "insusdt@ticker"
+  },
+  {
+    "symbol": "ICP",
+    "nom": "Internet Computer",
+    "wsstream": "icpusdt@ticker"
+  },
+  {
+    "symbol": "IO",
+    "nom": "io.net",
+    "wsstream": "iousdt@ticker"
+  },
+  {
+    "symbol": "IOST",
+    "nom": "IOST",
+    "wsstream": "iostusdt@ticker"
+  },
+  {
+    "symbol": "IOTA",
+    "nom": "IOTA",
+    "wsstream": "iotausdt@ticker"
+  },
+  {
+    "symbol": "IOTX",
+    "nom": "IoTeX",
+    "wsstream": "iotxusdt@ticker"
+  },
+  {
+    "symbol": "BUSD",
+    "nom": "IoTeX Bridged BUSD (IoTeX)",
+    "wsstream": "busdusdt@ticker"
+  },
+  {
+    "symbol": "IRIS",
+    "nom": "IRISnet",
+    "wsstream": "irisusdt@ticker"
+  },
+  {
+    "symbol": "IRIS",
+    "nom": "Iris",
+    "wsstream": "irisusdt@ticker"
+  },
+  {
+    "symbol": "JASMY",
+    "nom": "JasmyCoin",
+    "wsstream": "jasmyusdt@ticker"
+  },
+  {
+    "symbol": "JTO",
+    "nom": "Jito",
+    "wsstream": "jtousdt@ticker"
+  },
+  {
+    "symbol": "JOE",
+    "nom": "JOE",
+    "wsstream": "joeusdt@ticker"
+  },
+  {
+    "symbol": "JOE",
+    "nom": "Joe Coin",
+    "wsstream": "joeusdt@ticker"
+  },
+  {
+    "symbol": "JUP",
+    "nom": "Jupiter Project",
+    "wsstream": "jupusdt@ticker"
+  },
+  {
+    "symbol": "JUP",
+    "nom": "Jupiter",
+    "wsstream": "jupusdt@ticker"
+  },
+  {
+    "symbol": "JST",
+    "nom": "JUST",
+    "wsstream": "jstusdt@ticker"
+  },
+  {
+    "symbol": "JUV",
+    "nom": "Juventus Fan Token",
+    "wsstream": "juvusdt@ticker"
+  },
+  {
+    "symbol": "KDA",
+    "nom": "Kadena",
+    "wsstream": "kdausdt@ticker"
+  },
+  {
+    "symbol": "KAVA",
+    "nom": "Kava",
+    "wsstream": "kavausdt@ticker"
+  },
+  {
+    "symbol": "HARD",
+    "nom": "Kava Lend",
+    "wsstream": "hardusdt@ticker"
+  },
+  {
+    "symbol": "KP3R",
+    "nom": "Keep3rV1",
+    "wsstream": "kp3rusdt@ticker"
+  },
+  {
+    "symbol": "KEEP",
+    "nom": "Keep Finance",
+    "wsstream": "keepusdt@ticker"
+  },
+  {
+    "symbol": "KEEP",
+    "nom": "Keep Network",
+    "wsstream": "keepusdt@ticker"
+  },
+  {
+    "symbol": "KLAY",
+    "nom": "Klaytn",
+    "wsstream": "klayusdt@ticker"
+  },
+  {
+    "symbol": "KMD",
+    "nom": "Komodo",
+    "wsstream": "kmdusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Kucoin Bridged USDC (KuCoin Community Chain)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Kucoin Bridged USDT (KuCoin Community Chain)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "KSM",
+    "nom": "Kusama",
+    "wsstream": "ksmusdt@ticker"
+  },
+  {
+    "symbol": "KNC",
+    "nom": "Kyber Network Crystal",
+    "wsstream": "kncusdt@ticker"
+  },
+  {
+    "symbol": "ZRO",
+    "nom": "LayerZero",
+    "wsstream": "zrousdt@ticker"
+  },
+  {
+    "symbol": "LAZIO",
+    "nom": "Lazio Fan Token",
+    "wsstream": "laziousdt@ticker"
+  },
+  {
+    "symbol": "LOKA",
+    "nom": "League of Kingdoms",
+    "wsstream": "lokausdt@ticker"
+  },
+  {
+    "symbol": "LEND",
+    "nom": "Lendle",
+    "wsstream": "lendusdt@ticker"
+  },
+  {
+    "symbol": "LEVER",
+    "nom": "LeverFi",
+    "wsstream": "leverusdt@ticker"
+  },
+  {
+    "symbol": "LDO",
+    "nom": "Lido DAO",
+    "wsstream": "ldousdt@ticker"
+  },
+  {
+    "symbol": "LDO",
+    "nom": "Lido DAO (Wormhole)",
+    "wsstream": "ldousdt@ticker"
+  },
+  {
+    "symbol": "LINA",
+    "nom": "LINA",
+    "wsstream": "linausdt@ticker"
+  },
+  {
+    "symbol": "LINA",
+    "nom": "Linear",
+    "wsstream": "linausdt@ticker"
+  },
+  {
+    "symbol": "LQTY",
+    "nom": "Liquity",
+    "wsstream": "lqtyusdt@ticker"
+  },
+  {
+    "symbol": "LSK",
+    "nom": "Lisk",
+    "wsstream": "lskusdt@ticker"
+  },
+  {
+    "symbol": "LISTA",
+    "nom": "Lista DAO",
+    "wsstream": "listausdt@ticker"
+  },
+  {
+    "symbol": "LIT",
+    "nom": "LIT",
+    "wsstream": "litusdt@ticker"
+  },
+  {
+    "symbol": "LTC",
+    "nom": "Litecoin",
+    "wsstream": "ltcusdt@ticker"
+  },
+  {
+    "symbol": "LIT",
+    "nom": "Litentry",
+    "wsstream": "litusdt@ticker"
+  },
+  {
+    "symbol": "LPT",
+    "nom": "Livepeer",
+    "wsstream": "lptusdt@ticker"
+  },
+  {
+    "symbol": "LOOM",
+    "nom": "Loom",
+    "wsstream": "loomusdt@ticker"
+  },
+  {
+    "symbol": "LOOM",
+    "nom": "Loom Network (NEW)",
+    "wsstream": "loomusdt@ticker"
+  },
+  {
+    "symbol": "LRC",
+    "nom": "Loopring",
+    "wsstream": "lrcusdt@ticker"
+  },
+  {
+    "symbol": "LTO",
+    "nom": "LTO Network",
+    "wsstream": "ltousdt@ticker"
+  },
+  {
+    "symbol": "LUNC",
+    "nom": "Terra Classic (Wormhole)",
+    "wsstream": "luncusdt@ticker"
+  },
+  {
+    "symbol": "LUN",
+    "nom": "Lunyr",
+    "wsstream": "lunusdt@ticker"
+  },
+  {
+    "symbol": "DAI",
+    "nom": "LxLy Bridged DAI (Astar zkEVM)",
+    "wsstream": "daiusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "LxLy Bridged USDC (Astar zkEVM)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "LxLy Bridged USDT (Astar zkEVM)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "MAGIC",
+    "nom": "Magic",
+    "wsstream": "magicusdt@ticker"
+  },
+  {
+    "symbol": "MAGIC",
+    "nom": "Magic Carpet Ride",
+    "wsstream": "magicusdt@ticker"
+  },
+  {
+    "symbol": "MC",
+    "nom": "Magic Crystal",
+    "wsstream": "mcusdt@ticker"
+  },
+  {
+    "symbol": "MAGIC",
+    "nom": "MagicLand",
+    "wsstream": "magicusdt@ticker"
+  },
+  {
+    "symbol": "MFT",
+    "nom": "Mainframe",
+    "wsstream": "mftusdt@ticker"
+  },
+  {
+    "symbol": "MKR",
+    "nom": "Maker",
+    "wsstream": "mkrusdt@ticker"
+  },
+  {
+    "symbol": "CITY",
+    "nom": "Manchester City Fan Token",
+    "wsstream": "cityusdt@ticker"
+  },
+  {
+    "symbol": "MDX",
+    "nom": "Mandala Exchange",
+    "wsstream": "mdxusdt@ticker"
+  },
+  {
+    "symbol": "MANTA",
+    "nom": "Manta Network",
+    "wsstream": "mantausdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Mantle Bridged USDC (Mantle)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Mantle Bridged USDT (Mantle)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "OM",
+    "nom": "MANTRA",
+    "wsstream": "omusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Mapped USDT",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "POND",
+    "nom": "Marlin",
+    "wsstream": "pondusdt@ticker"
+  },
+  {
+    "symbol": "MOB",
+    "nom": "Marvin On Base",
+    "wsstream": "mobusdt@ticker"
+  },
+  {
+    "symbol": "MASK",
+    "nom": "Mask Network",
+    "wsstream": "maskusdt@ticker"
+  },
+  {
+    "symbol": "DAI",
+    "nom": "Massa Bridged DAI (Massa)",
+    "wsstream": "daiusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Massa Bridged USDC (Massa)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "MAV",
+    "nom": "Massive Protocol",
+    "wsstream": "mavusdt@ticker"
+  },
+  {
+    "symbol": "MATIC",
+    "nom": "Polygon",
+    "wsstream": "maticusdt@ticker"
+  },
+  {
+    "symbol": "MAV",
+    "nom": "Maverick Protocol",
+    "wsstream": "mavusdt@ticker"
+  },
+  {
+    "symbol": "MDX",
+    "nom": "Mdex (HECO)",
+    "wsstream": "mdxusdt@ticker"
+  },
+  {
+    "symbol": "MDX",
+    "nom": "Mdex (BSC)",
+    "wsstream": "mdxusdt@ticker"
+  },
+  {
+    "symbol": "MDT",
+    "nom": "Measurable Data",
+    "wsstream": "mdtusdt@ticker"
+  },
+  {
+    "symbol": "MC",
+    "nom": "Mechaverse",
+    "wsstream": "mcusdt@ticker"
+  },
+  {
+    "symbol": "MLN",
+    "nom": "Enzyme",
+    "wsstream": "mlnusdt@ticker"
+  },
+  {
+    "symbol": "MEME",
+    "nom": "MEME (Ordinals)",
+    "wsstream": "memeusdt@ticker"
+  },
+  {
+    "symbol": "MEME",
+    "nom": "Memecoin",
+    "wsstream": "memeusdt@ticker"
+  },
+  {
+    "symbol": "MEME",
+    "nom": "Meme Network",
+    "wsstream": "memeusdt@ticker"
+  },
+  {
+    "symbol": "MEME",
+    "nom": "MEMETOON",
+    "wsstream": "memeusdt@ticker"
+  },
+  {
+    "symbol": "MC",
+    "nom": "Merit Circle",
+    "wsstream": "mcusdt@ticker"
+  },
+  {
+    "symbol": "WBTC",
+    "nom": "Merlin Chain Bridged Wrapped BTC (Merlin)",
+    "wsstream": "wbtcusdt@ticker"
+  },
+  {
+    "symbol": "MDT",
+    "nom": "META DANCE",
+    "wsstream": "mdtusdt@ticker"
+  },
+  {
+    "symbol": "MTL",
+    "nom": "Metal DAO",
+    "wsstream": "mtlusdt@ticker"
+  },
+  {
+    "symbol": "ACE",
+    "nom": "MetaTrace Utility Token",
+    "wsstream": "aceusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Meter Passport Bridged USDC (Meter)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "METIS",
+    "nom": "Metis",
+    "wsstream": "metisusdt@ticker"
+  },
+  {
+    "symbol": "MINA",
+    "nom": "Mina Protocol",
+    "wsstream": "minausdt@ticker"
+  },
+  {
+    "symbol": "DAR",
+    "nom": "Mines of Dalarnia",
+    "wsstream": "darusdt@ticker"
+  },
+  {
+    "symbol": "MIR",
+    "nom": "Mirror Protocol",
+    "wsstream": "mirusdt@ticker"
+  },
+  {
+    "symbol": "MIR",
+    "nom": "Mir Token",
+    "wsstream": "mirusdt@ticker"
+  },
+  {
+    "symbol": "MITH",
+    "nom": "Mithril",
+    "wsstream": "mithusdt@ticker"
+  },
+  {
+    "symbol": "MOB",
+    "nom": "MobileCoin",
+    "wsstream": "mobusdt@ticker"
+  },
+  {
+    "symbol": "MBOX",
+    "nom": "Mobox",
+    "wsstream": "mboxusdt@ticker"
+  },
+  {
+    "symbol": "MOB",
+    "nom": "Mobster",
+    "wsstream": "mobusdt@ticker"
+  },
+  {
+    "symbol": "MOD",
+    "nom": "Modclub",
+    "wsstream": "modusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Mode Bridged USDC (Mode)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Mode Bridged USDT (Mode)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "WBTC",
+    "nom": "Mode Bridged WBTC (Mode)",
+    "wsstream": "wbtcusdt@ticker"
+  },
+  {
+    "symbol": "MOD",
+    "nom": "Modefi",
+    "wsstream": "modusdt@ticker"
+  },
+  {
+    "symbol": "MOD",
+    "nom": "Modular Wallet",
+    "wsstream": "modusdt@ticker"
+  },
+  {
+    "symbol": "MDA",
+    "nom": "Moeda Loyalty Points",
+    "wsstream": "mdausdt@ticker"
+  },
+  {
+    "symbol": "KEY",
+    "nom": "MoMo Key",
+    "wsstream": "keyusdt@ticker"
+  },
+  {
+    "symbol": "XMR",
+    "nom": "Monero",
+    "wsstream": "xmrusdt@ticker"
+  },
+  {
+    "symbol": "MTH",
+    "nom": "Monetha",
+    "wsstream": "mthusdt@ticker"
+  },
+  {
+    "symbol": "POLY",
+    "nom": "Monopoly Layer 3 POLY",
+    "wsstream": "polyusdt@ticker"
+  },
+  {
+    "symbol": "GLMR",
+    "nom": "Moonbeam",
+    "wsstream": "glmrusdt@ticker"
+  },
+  {
+    "symbol": "MC",
+    "nom": "Moon Cat",
+    "wsstream": "mcusdt@ticker"
+  },
+  {
+    "symbol": "MOVR",
+    "nom": "Moonriver",
+    "wsstream": "movrusdt@ticker"
+  },
+  {
+    "symbol": "MOD",
+    "nom": "Move Dollar",
+    "wsstream": "modusdt@ticker"
+  },
+  {
+    "symbol": "MBL",
+    "nom": "MovieBloc",
+    "wsstream": "mblusdt@ticker"
+  },
+  {
+    "symbol": "MULTI",
+    "nom": "Multichain",
+    "wsstream": "multiusdt@ticker"
+  },
+  {
+    "symbol": "BUSD",
+    "nom": "Multichain Bridged BUSD (Moonriver)",
+    "wsstream": "busdusdt@ticker"
+  },
+  {
+    "symbol": "BUSD",
+    "nom": "Multichain Bridged BUSD (OKT Chain)",
+    "wsstream": "busdusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Multichain Bridged USDC (Dogechain)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Multichain Bridged USDC (Fantom)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Multichain Bridged USDC (KardiaChain)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Multichain Bridged USDC (Kava)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Multichain Bridged USDC (Moonbeam)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Multichain Bridged USDC (Syscoin)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Multichain Bridged USDC (Telos)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Multichain Bridged USDT (Moonbeam)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Multichain Bridged USDT (Moonriver)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Multichain Bridged USDT (Syscoin)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Multichain Bridged USDT (Telos)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "MDX",
+    "nom": "MultiDEX AI",
+    "wsstream": "mdxusdt@ticker"
+  },
+  {
+    "symbol": "AI",
+    "nom": "Multiverse",
+    "wsstream": "aiusdt@ticker"
+  },
+  {
+    "symbol": "BULL",
+    "nom": "Mumu the Bull",
+    "wsstream": "bullusdt@ticker"
+  },
+  {
+    "symbol": "ALICE",
+    "nom": "My Neighbor Alice",
+    "wsstream": "aliceusdt@ticker"
+  },
+  {
+    "symbol": "XNO",
+    "nom": "Nano",
+    "wsstream": "xnousdt@ticker"
+  },
+  {
+    "symbol": "NANO",
+    "nom": "Nanomatic",
+    "wsstream": "nanousdt@ticker"
+  },
+  {
+    "symbol": "NAV",
+    "nom": "Navcoin",
+    "wsstream": "navusdt@ticker"
+  },
+  {
+    "symbol": "NEAR",
+    "nom": "NEAR Protocol",
+    "wsstream": "nearusdt@ticker"
+  },
+  {
+    "symbol": "NEBL",
+    "nom": "Neblio",
+    "wsstream": "neblusdt@ticker"
+  },
+  {
+    "symbol": "NAS",
+    "nom": "Nebulas",
+    "wsstream": "nasusdt@ticker"
+  },
+  {
+    "symbol": "XEM",
+    "nom": "NEM",
+    "wsstream": "xemusdt@ticker"
+  },
+  {
+    "symbol": "NEO",
+    "nom": "NEO",
+    "wsstream": "neousdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "NeonPass Bridged USDC (Neon)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Neonpass Bridged USDT (Neon)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "CKB",
+    "nom": "Nervos Network",
+    "wsstream": "ckbusdt@ticker"
+  },
+  {
+    "symbol": "NTRN",
+    "nom": "Neutron",
+    "wsstream": "ntrnusdt@ticker"
+  },
+  {
+    "symbol": "NBS",
+    "nom": "New BitShares",
+    "wsstream": "nbsusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "NEWPEPE",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "NEXO",
+    "nom": "NEXO",
+    "wsstream": "nexousdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "Next Gen PEPE",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "NXS",
+    "nom": "Nexus",
+    "wsstream": "nxsusdt@ticker"
+  },
+  {
+    "symbol": "NFP",
+    "nom": "NFPrompt",
+    "wsstream": "nfpusdt@ticker"
+  },
+  {
+    "symbol": "SHIB",
+    "nom": "NicCageWaluigiElmo42069Inu",
+    "wsstream": "shibusdt@ticker"
+  },
+  {
+    "symbol": "NCASH",
+    "nom": "Nitro Network",
+    "wsstream": "ncashusdt@ticker"
+  },
+  {
+    "symbol": "NKN",
+    "nom": "NKN",
+    "wsstream": "nknusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Nomad Bridged USDC (Evmos)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Nomad Bridged USDC (Moonbeam)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "NOT",
+    "nom": "Notcoin",
+    "wsstream": "notusdt@ticker"
+  },
+  {
+    "symbol": "DAI",
+    "nom": "Nova Merged DAI (zkLink)",
+    "wsstream": "daiusdt@ticker"
+  },
+  {
+    "symbol": "ETH",
+    "nom": "Nova Merged ETH (zkLink)",
+    "wsstream": "ethusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Nova Merged USDT (zkLink)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Nova Merged USDC (zkLink)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "WBTC",
+    "nom": "Nova Merged wBTC (zkLink)",
+    "wsstream": "wbtcusdt@ticker"
+  },
+  {
+    "symbol": "NCASH",
+    "nom": "Nucleus Vision",
+    "wsstream": "ncashusdt@ticker"
+  },
+  {
+    "symbol": "NU",
+    "nom": "NuCypher",
+    "wsstream": "nuusdt@ticker"
+  },
+  {
+    "symbol": "NULS",
+    "nom": "NULS",
+    "wsstream": "nulsusdt@ticker"
+  },
+  {
+    "symbol": "NMR",
+    "nom": "Numeraire",
+    "wsstream": "nmrusdt@ticker"
+  },
+  {
+    "symbol": "SUSD",
+    "nom": "sUSD",
+    "wsstream": "susdusdt@ticker"
+  },
+  {
+    "symbol": "ROSE",
+    "nom": "Oasis Network",
+    "wsstream": "roseusdt@ticker"
+  },
+  {
+    "symbol": "OCEAN",
+    "nom": "Ocean Protocol",
+    "wsstream": "oceanusdt@ticker"
+  },
+  {
+    "symbol": "VIA",
+    "nom": "Octavia",
+    "wsstream": "viausdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Arbitrum Bridged USDC (Arbitrum Nova)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "OG",
+    "nom": "OG Fan Token",
+    "wsstream": "ogusdt@ticker"
+  },
+  {
+    "symbol": "BETH",
+    "nom": "OKX BETH",
+    "wsstream": "bethusdt@ticker"
+  },
+  {
+    "symbol": "OMG",
+    "nom": "OMG Network",
+    "wsstream": "omgusdt@ticker"
+  },
+  {
+    "symbol": "OMNI",
+    "nom": "Omni",
+    "wsstream": "omniusdt@ticker"
+  },
+  {
+    "symbol": "OMNI",
+    "nom": "OmniCat",
+    "wsstream": "omniusdt@ticker"
+  },
+  {
+    "symbol": "OMNI",
+    "nom": "Omni Layer",
+    "wsstream": "omniusdt@ticker"
+  },
+  {
+    "symbol": "OMNI",
+    "nom": "Omni Network",
+    "wsstream": "omniusdt@ticker"
+  },
+  {
+    "symbol": "ONE",
+    "nom": "One",
+    "wsstream": "oneusdt@ticker"
+  },
+  {
+    "symbol": "ONE",
+    "nom": "OneFinity",
+    "wsstream": "oneusdt@ticker"
+  },
+  {
+    "symbol": "OST",
+    "nom": "Onestop",
+    "wsstream": "ostusdt@ticker"
+  },
+  {
+    "symbol": "ONE",
+    "nom": "One Token",
+    "wsstream": "oneusdt@ticker"
+  },
+  {
+    "symbol": "ONG",
+    "nom": "Ontology Gas",
+    "wsstream": "ongusdt@ticker"
+  },
+  {
+    "symbol": "ONT",
+    "nom": "Ontology",
+    "wsstream": "ontusdt@ticker"
+  },
+  {
+    "symbol": "OOKI",
+    "nom": "Ooki",
+    "wsstream": "ookiusdt@ticker"
+  },
+  {
+    "symbol": "OAX",
+    "nom": "OAX",
+    "wsstream": "oaxusdt@ticker"
+  },
+  {
+    "symbol": "CHAT",
+    "nom": "OpenChat",
+    "wsstream": "chatusdt@ticker"
+  },
+  {
+    "symbol": "OP",
+    "nom": "Optimism",
+    "wsstream": "opusdt@ticker"
+  },
+  {
+    "symbol": "OXT",
+    "nom": "Orchid Protocol",
+    "wsstream": "oxtusdt@ticker"
+  },
+  {
+    "symbol": "ORDI",
+    "nom": "ORDI",
+    "wsstream": "ordiusdt@ticker"
+  },
+  {
+    "symbol": "OST",
+    "nom": "OreSwap (Old)",
+    "wsstream": "ostusdt@ticker"
+  },
+  {
+    "symbol": "OST",
+    "nom": "OreSwap",
+    "wsstream": "ostusdt@ticker"
+  },
+  {
+    "symbol": "OGN",
+    "nom": "Origin Token",
+    "wsstream": "ognusdt@ticker"
+  },
+  {
+    "symbol": "ORN",
+    "nom": "Orion",
+    "wsstream": "ornusdt@ticker"
+  },
+  {
+    "symbol": "OSMO",
+    "nom": "Osmosis",
+    "wsstream": "osmousdt@ticker"
+  },
+  {
+    "symbol": "CAKE",
+    "nom": "PancakeSwap",
+    "wsstream": "cakeusdt@ticker"
+  },
+  {
+    "symbol": "PPT",
+    "nom": "PAPA Trump",
+    "wsstream": "pptusdt@ticker"
+  },
+  {
+    "symbol": "PSG",
+    "nom": "Paris Saint-Germain Fan Token",
+    "wsstream": "psgusdt@ticker"
+  },
+  {
+    "symbol": "PAXG",
+    "nom": "PAX Gold",
+    "wsstream": "paxgusdt@ticker"
+  },
+  {
+    "symbol": "USDP",
+    "nom": "Pax Dollar",
+    "wsstream": "usdpusdt@ticker"
+  },
+  {
+    "symbol": "PENDLE",
+    "nom": "Pendle",
+    "wsstream": "pendleusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "Pepe",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "PEPE 0x69 ON BASE",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "The Original Pepe",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "Pepe 2nd Chance",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "PEPE BLACK",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "PEPEBOMB",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "PEPE (Ordinals)",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "PEPECOIN on SOL",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "PepeCoin on Solana",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "Pepe CTO",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "PEPE (DRC-20)",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "PEPE GOLD",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "PEPEGOLD",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "Pepe King Prawn",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "Pepe on Base",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "Pepe on Solana",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "PepePAD",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "PepeSol",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "Pepe (SOL)",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "Pepe (Solana)",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "Pepe Token",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "PERL",
+    "nom": "PERL.eco",
+    "wsstream": "perlusdt@ticker"
+  },
+  {
+    "symbol": "PERP",
+    "nom": "Perpetual Protocol",
+    "wsstream": "perpusdt@ticker"
+  },
+  {
+    "symbol": "PHA",
+    "nom": "PHALA",
+    "wsstream": "phausdt@ticker"
+  },
+  {
+    "symbol": "PHX",
+    "nom": "Phoenix Blockchain",
+    "wsstream": "phxusdt@ticker"
+  },
+  {
+    "symbol": "PHB",
+    "nom": "Phoenix",
+    "wsstream": "phbusdt@ticker"
+  },
+  {
+    "symbol": "PHX",
+    "nom": "Phoenix Finance",
+    "wsstream": "phxusdt@ticker"
+  },
+  {
+    "symbol": "PIVX",
+    "nom": "PIVX",
+    "wsstream": "pivxusdt@ticker"
+  },
+  {
+    "symbol": "PIXEL",
+    "nom": "Pixels",
+    "wsstream": "pixelusdt@ticker"
+  },
+  {
+    "symbol": "PIXEL",
+    "nom": "PixelVerse",
+    "wsstream": "pixelusdt@ticker"
+  },
+  {
+    "symbol": "PDA",
+    "nom": "PlayDapp",
+    "wsstream": "pdausdt@ticker"
+  },
+  {
+    "symbol": "WAVES",
+    "nom": "Playground Waves Floor Index",
+    "wsstream": "wavesusdt@ticker"
+  },
+  {
+    "symbol": "PNT",
+    "nom": "pNetwork",
+    "wsstream": "pntusdt@ticker"
+  },
+  {
+    "symbol": "POE",
+    "nom": "Po.et",
+    "wsstream": "poeusdt@ticker"
+  },
+  {
+    "symbol": "DOT",
+    "nom": "Polkadot",
+    "wsstream": "dotusdt@ticker"
+  },
+  {
+    "symbol": "POLS",
+    "nom": "Polkastarter",
+    "wsstream": "polsusdt@ticker"
+  },
+  {
+    "symbol": "BUSD",
+    "nom": "Polygon Bridged BUSD (Polygon)",
+    "wsstream": "busdusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Polygon Bridged USDT (Polygon)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "DAI",
+    "nom": "x Layer Bridged DAI (x Layer)",
+    "wsstream": "daiusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Polygon Hermez Bridged USDC (Polygon zkEVM)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Polygon Hermez Bridged USDC (x Layer)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Polygon Hermez Bridged USDT (Polygon zkEVM)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Polygon Hermez Bridged USDT (x Layer)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "WBTC",
+    "nom": "x Layer Bridged WBTC (x Layer)",
+    "wsstream": "wbtcusdt@ticker"
+  },
+  {
+    "symbol": "POLY",
+    "nom": "Polymath",
+    "wsstream": "polyusdt@ticker"
+  },
+  {
+    "symbol": "POLYX",
+    "nom": "Polymesh",
+    "wsstream": "polyxusdt@ticker"
+  },
+  {
+    "symbol": "PPT",
+    "nom": "Pop Token",
+    "wsstream": "pptusdt@ticker"
+  },
+  {
+    "symbol": "PPT",
+    "nom": "Populous",
+    "wsstream": "pptusdt@ticker"
+  },
+  {
+    "symbol": "PORTAL",
+    "nom": "Portal",
+    "wsstream": "portalusdt@ticker"
+  },
+  {
+    "symbol": "POWR",
+    "nom": "Powerledger",
+    "wsstream": "powrusdt@ticker"
+  },
+  {
+    "symbol": "GAL",
+    "nom": "Galxe",
+    "wsstream": "galusdt@ticker"
+  },
+  {
+    "symbol": "PROM",
+    "nom": "Prom",
+    "wsstream": "promusdt@ticker"
+  },
+  {
+    "symbol": "PROS",
+    "nom": "Prosper",
+    "wsstream": "prosusdt@ticker"
+  },
+  {
+    "symbol": "FLOW",
+    "nom": "Pulsechain FLOW",
+    "wsstream": "flowusdt@ticker"
+  },
+  {
+    "symbol": "NPXS",
+    "nom": "Pundi X [OLD]",
+    "wsstream": "npxsusdt@ticker"
+  },
+  {
+    "symbol": "PUNDIX",
+    "nom": "Pundi X",
+    "wsstream": "pundixusdt@ticker"
+  },
+  {
+    "symbol": "PYTH",
+    "nom": "Pyth Network",
+    "wsstream": "pythusdt@ticker"
+  },
+  {
+    "symbol": "QKC",
+    "nom": "Q Coin",
+    "wsstream": "qkcusdt@ticker"
+  },
+  {
+    "symbol": "QI",
+    "nom": "Qi Dao",
+    "wsstream": "qiusdt@ticker"
+  },
+  {
+    "symbol": "QI",
+    "nom": "QiSwap",
+    "wsstream": "qiusdt@ticker"
+  },
+  {
+    "symbol": "QLC",
+    "nom": "Kepple [OLD]",
+    "wsstream": "qlcusdt@ticker"
+  },
+  {
+    "symbol": "QTUM",
+    "nom": "Qtum",
+    "wsstream": "qtumusdt@ticker"
+  },
+  {
+    "symbol": "QNT",
+    "nom": "Quant",
+    "wsstream": "qntusdt@ticker"
+  },
+  {
+    "symbol": "QKC",
+    "nom": "QuarkChain",
+    "wsstream": "qkcusdt@ticker"
+  },
+  {
+    "symbol": "QUICK",
+    "nom": "Quickswap [OLD]",
+    "wsstream": "quickusdt@ticker"
+  },
+  {
+    "symbol": "QUICK",
+    "nom": "Quickswap",
+    "wsstream": "quickusdt@ticker"
+  },
+  {
+    "symbol": "RAD",
+    "nom": "RAD",
+    "wsstream": "radusdt@ticker"
+  },
+  {
+    "symbol": "RDNT",
+    "nom": "Radiant Capital",
+    "wsstream": "rdntusdt@ticker"
+  },
+  {
+    "symbol": "RAD",
+    "nom": "Radworks",
+    "wsstream": "radusdt@ticker"
+  },
+  {
+    "symbol": "RDN",
+    "nom": "Raiden Network",
+    "wsstream": "rdnusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Rainbow Bridged USDC (Aurora)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "RAMP",
+    "nom": "RAMP [OLD]",
+    "wsstream": "rampusdt@ticker"
+  },
+  {
+    "symbol": "RGT",
+    "nom": "Rari Governance",
+    "wsstream": "rgtusdt@ticker"
+  },
+  {
+    "symbol": "RVN",
+    "nom": "Ravencoin",
+    "wsstream": "rvnusdt@ticker"
+  },
+  {
+    "symbol": "RAY",
+    "nom": "Raydium",
+    "wsstream": "rayusdt@ticker"
+  },
+  {
+    "symbol": "DAI",
+    "nom": "Re.al Bridged DAI (Re.al)",
+    "wsstream": "daiusdt@ticker"
+  },
+  {
+    "symbol": "PHB",
+    "nom": "Phoenix Global [OLD]",
+    "wsstream": "phbusdt@ticker"
+  },
+  {
+    "symbol": "REEF",
+    "nom": "Reef",
+    "wsstream": "reefusdt@ticker"
+  },
+  {
+    "symbol": "REI",
+    "nom": "REI Network",
+    "wsstream": "reiusdt@ticker"
+  },
+  {
+    "symbol": "RENBTC",
+    "nom": "renBTC",
+    "wsstream": "renbtcusdt@ticker"
+  },
+  {
+    "symbol": "RNDR",
+    "nom": "Render",
+    "wsstream": "rndrusdt@ticker"
+  },
+  {
+    "symbol": "REZ",
+    "nom": "Renzo",
+    "wsstream": "rezusdt@ticker"
+  },
+  {
+    "symbol": "REP",
+    "nom": "Republican",
+    "wsstream": "repusdt@ticker"
+  },
+  {
+    "symbol": "REN",
+    "nom": "Ren",
+    "wsstream": "renusdt@ticker"
+  },
+  {
+    "symbol": "REQ",
+    "nom": "Request",
+    "wsstream": "requsdt@ticker"
+  },
+  {
+    "symbol": "RSR",
+    "nom": "Reserve Rights",
+    "wsstream": "rsrusdt@ticker"
+  },
+  {
+    "symbol": "RIF",
+    "nom": "RSK Infrastructure Framework",
+    "wsstream": "rifusdt@ticker"
+  },
+  {
+    "symbol": "RCN",
+    "nom": "Ripio Credit Network",
+    "wsstream": "rcnusdt@ticker"
+  },
+  {
+    "symbol": "XRP",
+    "nom": "XRP",
+    "wsstream": "xrpusdt@ticker"
+  },
+  {
+    "symbol": "RPL",
+    "nom": "Rocket Pool",
+    "wsstream": "rplusdt@ticker"
+  },
+  {
+    "symbol": "BNB",
+    "nom": "RonWeasleyTrumpToadN64Inu",
+    "wsstream": "bnbusdt@ticker"
+  },
+  {
+    "symbol": "ROSE",
+    "nom": "Rose",
+    "wsstream": "roseusdt@ticker"
+  },
+  {
+    "symbol": "ROSE",
+    "nom": "Rosecoin",
+    "wsstream": "roseusdt@ticker"
+  },
+  {
+    "symbol": "ROSE",
+    "nom": "Rose Finance",
+    "wsstream": "roseusdt@ticker"
+  },
+  {
+    "symbol": "RUNE",
+    "nom": "Runebound",
+    "wsstream": "runeusdt@ticker"
+  },
+  {
+    "symbol": "SFP",
+    "nom": "SafePal",
+    "wsstream": "sfpusdt@ticker"
+  },
+  {
+    "symbol": "SAGA",
+    "nom": "Saga",
+    "wsstream": "sagausdt@ticker"
+  },
+  {
+    "symbol": "SALT",
+    "nom": "SALT",
+    "wsstream": "saltusdt@ticker"
+  },
+  {
+    "symbol": "SAND",
+    "nom": "San Diego Coin",
+    "wsstream": "sandusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Sanko Bridged USDC (Sanko)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "SANTOS",
+    "nom": "Santos FC Fan Token",
+    "wsstream": "santosusdt@ticker"
+  },
+  {
+    "symbol": "SCRT",
+    "nom": "Secret",
+    "wsstream": "scrtusdt@ticker"
+  },
+  {
+    "symbol": "SEI",
+    "nom": "Sei",
+    "wsstream": "seiusdt@ticker"
+  },
+  {
+    "symbol": "SEI",
+    "nom": "SeiWhale",
+    "wsstream": "seiusdt@ticker"
+  },
+  {
+    "symbol": "KEY",
+    "nom": "SelfKey",
+    "wsstream": "keyusdt@ticker"
+  },
+  {
+    "symbol": "SNT",
+    "nom": "Sentinel Bot Ai",
+    "wsstream": "sntusdt@ticker"
+  },
+  {
+    "symbol": "SRM",
+    "nom": "Serum",
+    "wsstream": "srmusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "ShadowTokens Bridged USDC (Elastos)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "SC",
+    "nom": "Shark Cat",
+    "wsstream": "scusdt@ticker"
+  },
+  {
+    "symbol": "FLOKI",
+    "nom": "Shiba Floki Inu",
+    "wsstream": "flokiusdt@ticker"
+  },
+  {
+    "symbol": "SHIB",
+    "nom": "Shiba Inu",
+    "wsstream": "shibusdt@ticker"
+  },
+  {
+    "symbol": "SHIB",
+    "nom": "Shiba Inu (Wormhole)",
+    "wsstream": "shibusdt@ticker"
+  },
+  {
+    "symbol": "SHIB",
+    "nom": "Shibaqua",
+    "wsstream": "shibusdt@ticker"
+  },
+  {
+    "symbol": "SHIB",
+    "nom": "SHIB ON SOLANA",
+    "wsstream": "shibusdt@ticker"
+  },
+  {
+    "symbol": "SHIB",
+    "nom": "Shibwifhatcoin",
+    "wsstream": "shibusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "ShimmerBridge Bridged USDT (ShimmerEVM)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "SC",
+    "nom": "Siacoin",
+    "wsstream": "scusdt@ticker"
+  },
+  {
+    "symbol": "XAI",
+    "nom": "SideShift",
+    "wsstream": "xaiusdt@ticker"
+  },
+  {
+    "symbol": "OST",
+    "nom": "OST",
+    "wsstream": "ostusdt@ticker"
+  },
+  {
+    "symbol": "SNX",
+    "nom": "SincroniX",
+    "wsstream": "snxusdt@ticker"
+  },
+  {
+    "symbol": "SNGLS",
+    "nom": "SingularDTV",
+    "wsstream": "snglsusdt@ticker"
+  },
+  {
+    "symbol": "AGIX",
+    "nom": "SingularityNET",
+    "wsstream": "agixusdt@ticker"
+  },
+  {
+    "symbol": "SKL",
+    "nom": "SKALE",
+    "wsstream": "sklusdt@ticker"
+  },
+  {
+    "symbol": "DAI",
+    "nom": "Skale IMA Bridged DAI",
+    "wsstream": "daiusdt@ticker"
+  },
+  {
+    "symbol": "USDP",
+    "nom": "Skale IMA Bridged USDP",
+    "wsstream": "usdpusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Skale IMA Bridged USDT",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "SKY",
+    "nom": "Skycoin",
+    "wsstream": "skyusdt@ticker"
+  },
+  {
+    "symbol": "SKY",
+    "nom": "Skydrome",
+    "wsstream": "skyusdt@ticker"
+  },
+  {
+    "symbol": "SKY",
+    "nom": "Skypath",
+    "wsstream": "skyusdt@ticker"
+  },
+  {
+    "symbol": "SKY",
+    "nom": "Sky Raiders",
+    "wsstream": "skyusdt@ticker"
+  },
+  {
+    "symbol": "AI",
+    "nom": "Sleepless AI",
+    "wsstream": "aiusdt@ticker"
+  },
+  {
+    "symbol": "SLP",
+    "nom": "SLP",
+    "wsstream": "slpusdt@ticker"
+  },
+  {
+    "symbol": "DNT",
+    "nom": "Definder Network",
+    "wsstream": "dntusdt@ticker"
+  },
+  {
+    "symbol": "SLP",
+    "nom": "Smooth Love Potion",
+    "wsstream": "slpusdt@ticker"
+  },
+  {
+    "symbol": "SNM",
+    "nom": "SnailMoon",
+    "wsstream": "snmusdt@ticker"
+  },
+  {
+    "symbol": "SOL",
+    "nom": "Solana",
+    "wsstream": "solusdt@ticker"
+  },
+  {
+    "symbol": "SRM",
+    "nom": "Solareum",
+    "wsstream": "srmusdt@ticker"
+  },
+  {
+    "symbol": "CHAT",
+    "nom": "Solchat",
+    "wsstream": "chatusdt@ticker"
+  },
+  {
+    "symbol": "HIVE",
+    "nom": "SolHive",
+    "wsstream": "hiveusdt@ticker"
+  },
+  {
+    "symbol": "STORM",
+    "nom": "SOLSTORM",
+    "wsstream": "stormusdt@ticker"
+  },
+  {
+    "symbol": "SOL",
+    "nom": "SOL (Wormhole)",
+    "wsstream": "solusdt@ticker"
+  },
+  {
+    "symbol": "SNM",
+    "nom": "SONM",
+    "wsstream": "snmusdt@ticker"
+  },
+  {
+    "symbol": "DNT",
+    "nom": "Space Guild Diamond Token",
+    "wsstream": "dntusdt@ticker"
+  },
+  {
+    "symbol": "ID",
+    "nom": "SPACE ID",
+    "wsstream": "idusdt@ticker"
+  },
+  {
+    "symbol": "SPARTA",
+    "nom": "SpartaDEX",
+    "wsstream": "spartausdt@ticker"
+  },
+  {
+    "symbol": "SPARTA",
+    "nom": "Spartan Protocol",
+    "wsstream": "spartausdt@ticker"
+  },
+  {
+    "symbol": "SPELL",
+    "nom": "Spell",
+    "wsstream": "spellusdt@ticker"
+  },
+  {
+    "symbol": "USDS",
+    "nom": "Sperax USD",
+    "wsstream": "usdsusdt@ticker"
+  },
+  {
+    "symbol": "USDS",
+    "nom": "SpiceUSD",
+    "wsstream": "usdsusdt@ticker"
+  },
+  {
+    "symbol": "SSV",
+    "nom": "SSV Network",
+    "wsstream": "ssvusdt@ticker"
+  },
+  {
+    "symbol": "SFP",
+    "nom": "Stade Français Paris Fan Token",
+    "wsstream": "sfpusdt@ticker"
+  },
+  {
+    "symbol": "FIS",
+    "nom": "Stafi",
+    "wsstream": "fisusdt@ticker"
+  },
+  {
+    "symbol": "BOT",
+    "nom": "Starbots",
+    "wsstream": "botusdt@ticker"
+  },
+  {
+    "symbol": "SC",
+    "nom": "STAR CAT",
+    "wsstream": "scusdt@ticker"
+  },
+  {
+    "symbol": "ASTR",
+    "nom": "Stargate Bridged ASTR (Astar zkEVM)",
+    "wsstream": "astrusdt@ticker"
+  },
+  {
+    "symbol": "STG",
+    "nom": "Stargate Finance",
+    "wsstream": "stgusdt@ticker"
+  },
+  {
+    "symbol": "STRK",
+    "nom": "Starknet",
+    "wsstream": "strkusdt@ticker"
+  },
+  {
+    "symbol": "SNT",
+    "nom": "Status",
+    "wsstream": "sntusdt@ticker"
+  },
+  {
+    "symbol": "STEEM",
+    "nom": "Steem",
+    "wsstream": "steemusdt@ticker"
+  },
+  {
+    "symbol": "XLM",
+    "nom": "Stellar",
+    "wsstream": "xlmusdt@ticker"
+  },
+  {
+    "symbol": "GMT",
+    "nom": "GMT",
+    "wsstream": "gmtusdt@ticker"
+  },
+  {
+    "symbol": "STORJ",
+    "nom": "Storj",
+    "wsstream": "storjusdt@ticker"
+  },
+  {
+    "symbol": "STMX",
+    "nom": "StormX",
+    "wsstream": "stmxusdt@ticker"
+  },
+  {
+    "symbol": "STORM",
+    "nom": "Storm",
+    "wsstream": "stormusdt@ticker"
+  },
+  {
+    "symbol": "STORM",
+    "nom": "Storm Trade",
+    "wsstream": "stormusdt@ticker"
+  },
+  {
+    "symbol": "STX",
+    "nom": "Stox",
+    "wsstream": "stxusdt@ticker"
+  },
+  {
+    "symbol": "STPT",
+    "nom": "STP",
+    "wsstream": "stptusdt@ticker"
+  },
+  {
+    "symbol": "STRAX",
+    "nom": "Stratis",
+    "wsstream": "straxusdt@ticker"
+  },
+  {
+    "symbol": "STRAT",
+    "nom": "Stratum Exchange",
+    "wsstream": "stratusdt@ticker"
+  },
+  {
+    "symbol": "DATA",
+    "nom": "Streamr",
+    "wsstream": "datausdt@ticker"
+  },
+  {
+    "symbol": "SUB",
+    "nom": "Subsocial",
+    "wsstream": "subusdt@ticker"
+  },
+  {
+    "symbol": "SUB",
+    "nom": "Substratum",
+    "wsstream": "subusdt@ticker"
+  },
+  {
+    "symbol": "SUI",
+    "nom": "Sui",
+    "wsstream": "suiusdt@ticker"
+  },
+  {
+    "symbol": "SUN",
+    "nom": "Sunala",
+    "wsstream": "sunusdt@ticker"
+  },
+  {
+    "symbol": "SUN",
+    "nom": "Sun Token",
+    "wsstream": "sunusdt@ticker"
+  },
+  {
+    "symbol": "SUPER",
+    "nom": "PeerMe SUPER",
+    "wsstream": "superusdt@ticker"
+  },
+  {
+    "symbol": "SUPER",
+    "nom": "SuperVerse",
+    "wsstream": "superusdt@ticker"
+  },
+  {
+    "symbol": "RARE",
+    "nom": "SuperRare",
+    "wsstream": "rareusdt@ticker"
+  },
+  {
+    "symbol": "RARE",
+    "nom": "SuperRareBears RARE",
+    "wsstream": "rareusdt@ticker"
+  },
+  {
+    "symbol": "SUSD",
+    "nom": "sUSD (Optimism)",
+    "wsstream": "susdusdt@ticker"
+  },
+  {
+    "symbol": "SUSHI",
+    "nom": "Sushi",
+    "wsstream": "sushiusdt@ticker"
+  },
+  {
+    "symbol": "SWRV",
+    "nom": "Swerve",
+    "wsstream": "swrvusdt@ticker"
+  },
+  {
+    "symbol": "SXP",
+    "nom": "Solar",
+    "wsstream": "sxpusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "SX Network Bridged USDC (SX Network)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Symbiosis Bridged USDC (Bahamut)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Symbiosis Bridged USDT (Bahamut)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "SYN",
+    "nom": "Synapse",
+    "wsstream": "synusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Synapse Bridged USDC (Canto)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Synapse Bridged USDC (Elastos)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Synapse Bridged USDC (Klaytn)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "SYN",
+    "nom": "Syn Dog",
+    "wsstream": "synusdt@ticker"
+  },
+  {
+    "symbol": "DIA",
+    "nom": "Synergy Diamonds",
+    "wsstream": "diausdt@ticker"
+  },
+  {
+    "symbol": "SYS",
+    "nom": "Syscoin",
+    "wsstream": "sysusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Taiko Bridged USDC (Taiko)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "TNT",
+    "nom": "Tangle Network",
+    "wsstream": "tntusdt@ticker"
+  },
+  {
+    "symbol": "TAO",
+    "nom": "Tao Meme",
+    "wsstream": "taousdt@ticker"
+  },
+  {
+    "symbol": "BEAR",
+    "nom": "TEDDY BEAR",
+    "wsstream": "bearusdt@ticker"
+  },
+  {
+    "symbol": "TRB",
+    "nom": "Tellor Tributes",
+    "wsstream": "trbusdt@ticker"
+  },
+  {
+    "symbol": "TNSR",
+    "nom": "Tensor",
+    "wsstream": "tnsrusdt@ticker"
+  },
+  {
+    "symbol": "LUNC",
+    "nom": "Terra Luna Classic",
+    "wsstream": "luncusdt@ticker"
+  },
+  {
+    "symbol": "LUNA",
+    "nom": "Terra",
+    "wsstream": "lunausdt@ticker"
+  },
+  {
+    "symbol": "USTC",
+    "nom": "TerraClassicUSD",
+    "wsstream": "ustcusdt@ticker"
+  },
+  {
+    "symbol": "UST",
+    "nom": "TerraUSD (Wormhole)",
+    "wsstream": "ustusdt@ticker"
+  },
+  {
+    "symbol": "BULL",
+    "nom": "TERRIER",
+    "wsstream": "bullusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Tether",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Bridged Tether (PulseChain)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "XTZ",
+    "nom": "Tezos",
+    "wsstream": "xtzusdt@ticker"
+  },
+  {
+    "symbol": "PEPE",
+    "nom": "Tezos Pepe",
+    "wsstream": "pepeusdt@ticker"
+  },
+  {
+    "symbol": "GRT",
+    "nom": "The Graph",
+    "wsstream": "grtusdt@ticker"
+  },
+  {
+    "symbol": "ETH",
+    "nom": "The Infinite Garden",
+    "wsstream": "ethusdt@ticker"
+  },
+  {
+    "symbol": "ELF",
+    "nom": "THE LAND ELF Crossing",
+    "wsstream": "elfusdt@ticker"
+  },
+  {
+    "symbol": "SAND",
+    "nom": "The Sandbox",
+    "wsstream": "sandusdt@ticker"
+  },
+  {
+    "symbol": "SAND",
+    "nom": "The Sandbox (Wormhole)",
+    "wsstream": "sandusdt@ticker"
+  },
+  {
+    "symbol": "TFUEL",
+    "nom": "Theta Fuel",
+    "wsstream": "tfuelusdt@ticker"
+  },
+  {
+    "symbol": "THETA",
+    "nom": "Theta Network",
+    "wsstream": "thetausdt@ticker"
+  },
+  {
+    "symbol": "TVK",
+    "nom": "Virtua",
+    "wsstream": "tvkusdt@ticker"
+  },
+  {
+    "symbol": "RUNE",
+    "nom": "THORChain",
+    "wsstream": "runeusdt@ticker"
+  },
+  {
+    "symbol": "T",
+    "nom": "Threshold Network",
+    "wsstream": "tusdt@ticker"
+  },
+  {
+    "symbol": "BUSD",
+    "nom": "Thundercore Bridged BUSD (Thundercore)",
+    "wsstream": "busdusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Thundercore Bridged USDC (Thundercore)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Thundercore Bridged USDT (Thundercore)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "TIA",
+    "nom": "TIA",
+    "wsstream": "tiausdt@ticker"
+  },
+  {
+    "symbol": "TNT",
+    "nom": "Tierion",
+    "wsstream": "tntusdt@ticker"
+  },
+  {
+    "symbol": "LIT",
+    "nom": "Timeless",
+    "wsstream": "litusdt@ticker"
+  },
+  {
+    "symbol": "TCT",
+    "nom": "TokenClub",
+    "wsstream": "tctusdt@ticker"
+  },
+  {
+    "symbol": "TKO",
+    "nom": "Tokocrypto",
+    "wsstream": "tkousdt@ticker"
+  },
+  {
+    "symbol": "VIC",
+    "nom": "Viction",
+    "wsstream": "vicusdt@ticker"
+  },
+  {
+    "symbol": "TORN",
+    "nom": "Tornado Cash",
+    "wsstream": "tornusdt@ticker"
+  },
+  {
+    "symbol": "CHESS",
+    "nom": "Tranchess",
+    "wsstream": "chessusdt@ticker"
+  },
+  {
+    "symbol": "TRIBE",
+    "nom": "Tribe",
+    "wsstream": "tribeusdt@ticker"
+  },
+  {
+    "symbol": "TRIBE",
+    "nom": "Tribe Token",
+    "wsstream": "tribeusdt@ticker"
+  },
+  {
+    "symbol": "TRX",
+    "nom": "TRON",
+    "wsstream": "trxusdt@ticker"
+  },
+  {
+    "symbol": "TRX",
+    "nom": "TRON (BSC)",
+    "wsstream": "trxusdt@ticker"
+  },
+  {
+    "symbol": "TROY",
+    "nom": "TROY",
+    "wsstream": "troyusdt@ticker"
+  },
+  {
+    "symbol": "TRU",
+    "nom": "Truebit Protocol",
+    "wsstream": "truusdt@ticker"
+  },
+  {
+    "symbol": "TRU",
+    "nom": "TrueFi",
+    "wsstream": "truusdt@ticker"
+  },
+  {
+    "symbol": "TUSD",
+    "nom": "TrueUSD",
+    "wsstream": "tusdusdt@ticker"
+  },
+  {
+    "symbol": "TWT",
+    "nom": "Trust Wallet",
+    "wsstream": "twtusdt@ticker"
+  },
+  {
+    "symbol": "UMA",
+    "nom": "UMA",
+    "wsstream": "umausdt@ticker"
+  },
+  {
+    "symbol": "UNI",
+    "nom": "UNICORN",
+    "wsstream": "uniusdt@ticker"
+  },
+  {
+    "symbol": "UNFI",
+    "nom": "Unifi Protocol DAO",
+    "wsstream": "unfiusdt@ticker"
+  },
+  {
+    "symbol": "UNI",
+    "nom": "UNILAPSE",
+    "wsstream": "uniusdt@ticker"
+  },
+  {
+    "symbol": "RARE",
+    "nom": "Unique One",
+    "wsstream": "rareusdt@ticker"
+  },
+  {
+    "symbol": "UNI",
+    "nom": "Uniswap",
+    "wsstream": "uniusdt@ticker"
+  },
+  {
+    "symbol": "UNI",
+    "nom": "Uniswap (Wormhole)",
+    "wsstream": "uniusdt@ticker"
+  },
+  {
+    "symbol": "UNI",
+    "nom": "Uni the Wonder Dog",
+    "wsstream": "uniusdt@ticker"
+  },
+  {
+    "symbol": "UFT",
+    "nom": "UniLend Finance",
+    "wsstream": "uftusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "USDC",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "Bridged USD Coin (PulseChain)",
+    "wsstream": "usdcusdt@ticker"
+  },
+  {
+    "symbol": "UTK",
+    "nom": "xMoney",
+    "wsstream": "utkusdt@ticker"
+  },
+  {
+    "symbol": "VANRY",
+    "nom": "Vanar Chain",
+    "wsstream": "vanryusdt@ticker"
+  },
+  {
+    "symbol": "VET",
+    "nom": "VeChain",
+    "wsstream": "vetusdt@ticker"
+  },
+  {
+    "symbol": "CHAT",
+    "nom": "VectorChat.ai",
+    "wsstream": "chatusdt@ticker"
+  },
+  {
+    "symbol": "FLOW",
+    "nom": "Velocimeter FLOW",
+    "wsstream": "flowusdt@ticker"
+  },
+  {
+    "symbol": "XVS",
+    "nom": "Venus",
+    "wsstream": "xvsusdt@ticker"
+  },
+  {
+    "symbol": "XVG",
+    "nom": "Verge",
+    "wsstream": "xvgusdt@ticker"
+  },
+  {
+    "symbol": "XVG",
+    "nom": "Verge (ETH)",
+    "wsstream": "xvgusdt@ticker"
+  },
+  {
+    "symbol": "VTHO",
+    "nom": "VeThor",
+    "wsstream": "vthousdt@ticker"
+  },
+  {
+    "symbol": "VIA",
+    "nom": "Viacoin",
+    "wsstream": "viausdt@ticker"
+  },
+  {
+    "symbol": "VIBE",
+    "nom": "VIBE",
+    "wsstream": "vibeusdt@ticker"
+  },
+  {
+    "symbol": "VIB",
+    "nom": "Viberate",
+    "wsstream": "vibusdt@ticker"
+  },
+  {
+    "symbol": "USDT",
+    "nom": "Viction Bridged USDT (Viction)",
+    "wsstream": "usdtusdt@ticker"
+  },
+  {
+    "symbol": "VIC",
+    "nom": "Victory Impact",
+    "wsstream": "vicusdt@ticker"
+  },
+  {
+    "symbol": "VIDT",
+    "nom": "VIDT DAO",
+    "wsstream": "vidtusdt@ticker"
+  },
+  {
+    "symbol": "VITE",
+    "nom": "Vite",
+    "wsstream": "viteusdt@ticker"
+  },
+  {
+    "symbol": "VOXEL",
+    "nom": "Voxies",
+    "wsstream": "voxelusdt@ticker"
+  },
+  {
+    "symbol": "PYR",
+    "nom": "Vulcan Forged",
+    "wsstream": "pyrusdt@ticker"
+  },
+  {
+    "symbol": "WTC",
+    "nom": "Waltonchain",
+    "wsstream": "wtcusdt@ticker"
+  },
+  {
+    "symbol": "WAN",
+    "nom": "Wanchain",
+    "wsstream": "wanusdt@ticker"
+  },
+  {
+    "symbol": "XRP",
+    "nom": "WarioXRPDumbledoreYugioh69Inu",
+    "wsstream": "xrpusdt@ticker"
+  },
+  {
+    "symbol": "WAVES",
+    "nom": "Waves",
+    "wsstream": "wavesusdt@ticker"
+  },
+  {
+    "symbol": "WAXP",
+    "nom": "WAX",
+    "wsstream": "waxpusdt@ticker"
+  },
+  {
+    "symbol": "WRX",
+    "nom": "WazirX",
+    "wsstream": "wrxusdt@ticker"
+  },
+  {
+    "symbol": "WPR",
+    "nom": "WePower",
+    "wsstream": "wprusdt@ticker"
+  },
+  {
+    "symbol": "HIVE",
+    "nom": "Wh1t3h1v3",
+    "wsstream": "hiveusdt@ticker"
+  },
+  {
+    "symbol": "WIF",
+    "nom": "WIF on ETH",
+    "wsstream": "wifusdt@ticker"
+  },
+  {
+    "symbol": "WIF",
+    "nom": "Wif - SecondChance",
+    "wsstream": "wifusdt@ticker"
+  },
+  {
+    "symbol": "WLD",
+    "nom": "Wild Coin",
+    "wsstream": "wldusdt@ticker"
+  },
+  {
+    "symbol": "WIN",
+    "nom": "WINBIT CASINO",
+    "wsstream": "winusdt@ticker"
+  },
+  {
+    "symbol": "WING",
+    "nom": "Wing Finance",
+    "wsstream": "wingusdt@ticker"
+  },
+  {
+    "symbol": "WIN",
+    "nom": "WINkLink",
+    "wsstream": "winusdt@ticker"
+  },
+  {
+    "symbol": "WIN",
+    "nom": "WINkLink BSC",
+    "wsstream": "winusdt@ticker"
+  },
+  {
+    "symbol": "MASK",
+    "nom": "Wojak Mask",
+    "wsstream": "maskusdt@ticker"
+  },
+  {
+    "symbol": "WOO",
+    "nom": "WOO",
+    "wsstream": "woousdt@ticker"
+  },
+  {
+    "symbol": "WLD",
+    "nom": "Worldcoin",
+    "wsstream": "wldusdt@ticker"
+  },
+  {
+    "symbol": "W",
+    "nom": "Wormhole",
+    "wsstream": "wusdt@ticker"
+  },
+  {
+    "symbol": "WBETH",
+    "nom": "Wrapped Beacon ETH",
+    "wsstream": "wbethusdt@ticker"
+  },
+  {
+    "symbol": "WBTC",
+    "nom": "Wrapped Bitcoin",
+    "wsstream": "wbtcusdt@ticker"
+  },
+  {
+    "symbol": "WBTC",
+    "nom": "Wrapped Bitcoin (PulseChain)",
+    "wsstream": "wbtcusdt@ticker"
+  },
+  {
+    "symbol": "WBTC",
+    "nom": "Wrapped BTC (Wormhole)",
+    "wsstream": "wbtcusdt@ticker"
+  },
+  {
+    "symbol": "WNXM",
+    "nom": "Wrapped NXM",
+    "wsstream": "wnxmusdt@ticker"
+  },
+  {
+    "symbol": "SOL",
+    "nom": "Wrapped Solana",
+    "wsstream": "solusdt@ticker"
+  },
+  {
+    "symbol": "LUNC",
+    "nom": "Wrapped Terra Classic",
+    "wsstream": "luncusdt@ticker"
+  },
+  {
+    "symbol": "USTC",
+    "nom": "Wrapped USTC",
+    "wsstream": "ustcusdt@ticker"
+  },
+  {
+    "symbol": "XAI",
+    "nom": "XAI Stablecoin",
+    "wsstream": "xaiusdt@ticker"
+  },
+  {
+    "symbol": "XAI",
+    "nom": "xAI",
+    "wsstream": "xaiusdt@ticker"
+  },
+  {
+    "symbol": "XAI",
+    "nom": "Xai",
+    "wsstream": "xaiusdt@ticker"
+  },
+  {
+    "symbol": "XAI",
+    "nom": "XAI Corp",
+    "wsstream": "xaiusdt@ticker"
+  },
+  {
+    "symbol": "DOT",
+    "nom": "xcDOT",
+    "wsstream": "dotusdt@ticker"
+  },
+  {
+    "symbol": "XNO",
+    "nom": "Xeno",
+    "wsstream": "xnousdt@ticker"
+  },
+  {
+    "symbol": "YFI",
+    "nom": "yearn.finance",
+    "wsstream": "yfiusdt@ticker"
+  },
+  {
+    "symbol": "YFII",
+    "nom": "DFI.money",
+    "wsstream": "yfiiusdt@ticker"
+  },
+  {
+    "symbol": "YGG",
+    "nom": "Yield Guild Games",
+    "wsstream": "yggusdt@ticker"
+  },
+  {
+    "symbol": "YOYO",
+    "nom": "Yoyo",
+    "wsstream": "yoyousdt@ticker"
+  },
+  {
+    "symbol": "YOYO",
+    "nom": "Yoyo Market",
+    "wsstream": "yoyousdt@ticker"
+  },
+  {
+    "symbol": "ZEC",
+    "nom": "Zcash",
+    "wsstream": "zecusdt@ticker"
+  },
+  {
+    "symbol": "FIRO",
+    "nom": "Firo",
+    "wsstream": "firousdt@ticker"
+  },
+  {
+    "symbol": "FLUX",
+    "nom": "Flux",
+    "wsstream": "fluxusdt@ticker"
+  },
+  {
+    "symbol": "ZEN",
+    "nom": "Zen",
+    "wsstream": "zenusdt@ticker"
+  },
+  {
+    "symbol": "ZEN",
+    "nom": "Horizen",
+    "wsstream": "zenusdt@ticker"
+  },
+  {
+    "symbol": "ZEN",
+    "nom": "Zenith",
+    "wsstream": "zenusdt@ticker"
+  },
+  {
+    "symbol": "ZIL",
+    "nom": "Zilliqa",
+    "wsstream": "zilusdt@ticker"
+  },
+  {
+    "symbol": "ZK",
+    "nom": "ZKsync",
+    "wsstream": "zkusdt@ticker"
+  },
+  {
+    "symbol": "USDC",
+    "nom": "zkSync Bridged USDC (zkSync)",
+    "wsstream": "usdcusdt@ticker"
+  }
+]
