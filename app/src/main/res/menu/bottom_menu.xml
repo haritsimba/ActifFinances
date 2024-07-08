@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/marche"
+        android:title="Marché"
+        android:icon="@drawable/baseline_auto_graph_24"/>
+    <item
+        android:id="@+id/square"
+        android:title="Square"
+        android:icon="@drawable/baseline_wifi_24"/>
+    <item
+        android:id="@+id/echange"
+        android:title=""
+        android:enabled="false"
+        />
+    <item
+        android:id="@+id/decouvrir"
+        android:title="Découvrir"
+        android:icon="@drawable/baseline_diamond_24"/>
+    <item
+        android:id="@+id/portfeuille"
+        android:title="Portfeuille"
+        android:icon="@drawable/baseline_save_24"/>
+</menu>

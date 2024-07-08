@@ -1,0 +1,101 @@
+package insta.soul.keycloak.actiffinances.listadapter;
+
+import android.content.Context;
+import android.content.Intent;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.imageview.ShapeableImageView;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import insta.soul.keycloak.actiffinances.BlockchainDetailedData;
+import insta.soul.keycloak.actiffinances.R;
+import insta.soul.keycloak.actiffinances.listmodels.MarketDataItem;
+
+public class DataMarketListAdapter extends RecyclerView.Adapter<DataMarketListAdapter.MyViewHolder> {
+    private final List<MarketDataItem> items = new ArrayList<>();
+    private int missingIcon = 0;
+
+    @NonNull
+    @Override
+    public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.market_data_item, parent, false);
+        return new MyViewHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+        MarketDataItem item = items.get(position);
+        holder.symbolTextView.setText(item.getBcSymbol());
+        holder.priceTextView.setText(String.valueOf(item.getBcPrice()));
+        holder.priceChangeTextView.setText(String.valueOf(item.getBcPriceChange()));
+        holder.bcNameTextView.setText(item.getBcName());
+        String iconName = item.getBcSymbol().toLowerCase();
+        int iconResId = holder.itemView.getResources().getIdentifier(iconName, "drawable", holder.itemView.getContext().getPackageName());
+
+        if (iconResId == 0) {
+            missingIcon++;
+            Log.d("Missing Icon", "Missing icon: " + iconName + " count "+missingIcon);
+           // Log.d("Icon not found",iconName);
+            // Use default BTC icon if not found
+            iconResId = R.drawable.btc;  // Assure that you have a default icon named btc.png in drawable
+        }
+
+        holder.bcIconImageView.setImageResource(iconResId);holder.bcIconImageView.setImageResource(iconResId);
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(holder.itemView.getContext(), BlockchainDetailedData.class);
+                intent.putExtra("symbol", item.getBcSymbol());
+                holder.itemView.getContext().startActivity(intent);
+            }
+        });
+    }
+
+    @Override
+    public int getItemCount() {
+        return items.size();
+    }
+
+    public int updateItem(String symbol, double price,double priceChange) {
+        for (int i = 0; i < items.size(); i++) {
+            MarketDataItem item = items.get(i);
+            if (item.getBcSymbol().equals(symbol)) {
+                item.setBcPrice(price);
+                item.setBcPriceChange(priceChange);
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public void addItem(MarketDataItem item) {
+        items.add(item);
+        notifyItemInserted(items.size() - 1);
+    }
+
+    static class MyViewHolder extends RecyclerView.ViewHolder {
+        TextView symbolTextView;
+        TextView priceTextView;
+        TextView priceChangeTextView;
+        ShapeableImageView bcIconImageView;
+        TextView bcNameTextView;
+
+        MyViewHolder(@NonNull View itemView) {
+            super(itemView);
+            symbolTextView = itemView.findViewById(R.id.bc_symbol);
+            priceTextView = itemView.findViewById(R.id.bc_price);
+            priceChangeTextView = itemView.findViewById(R.id.bc_price_change);
+            bcIconImageView = itemView.findViewById(R.id.bc_icon);
+            bcNameTextView = itemView.findViewById(R.id.bc_name);
+        }
+    }
+}

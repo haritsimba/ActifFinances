@@ -1,0 +1,5 @@
+{
+  "BASE_URL": "http://192.168.43.173:8080",
+  "CLIENT_ID": "ActifsFinancesApp",
+  "REALM_NAME": "ActifsFinances"
+}
