@@ -15,6 +15,15 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    sourceSets {
+        main {
+            res.srcDirs = [
+                    'src/main/res',
+                    'src/main/res/drawable-v24'
+                    // Ajoutez d'autres dossiers si nécessaire
+            ]
+        }
+    }
 
     buildTypes {
         release {

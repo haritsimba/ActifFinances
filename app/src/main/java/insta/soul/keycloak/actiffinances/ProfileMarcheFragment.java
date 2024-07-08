@@ -62,6 +62,7 @@ public class ProfileMarcheFragment extends Fragment {
         for (WebSocketManager webSocketManager : webSocketManagers){
             webSocketManager.startWebSocket("wss://stream.binance.com:9443/ws");
             String params = "{\"method\": \"SUBSCRIBE\", \"params\": "+ new Utils().makeWebsocketParams(BlockchainList.getInstance().getCryptoListsOptimized().get(websocketCounter))+"}";
+            Log.d("param",params);
             webSocketManager.sendMessage(params);
             websocketCounter++;
         }
