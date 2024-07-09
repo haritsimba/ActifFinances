@@ -4,6 +4,7 @@ import java.util.List;
 
 import insta.soul.keycloak.actiffinances.coingecko.beans.Coin;
 import insta.soul.keycloak.actiffinances.coingecko.beans.CoinMarket;
+import insta.soul.keycloak.actiffinances.coingecko.beans.FeedContainer;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
@@ -17,4 +18,6 @@ public interface CoingeckoApiServices {
             @Query("vs_currency") String vsCurrency,
             @Query("ids") String ids
     );
+    @GET("/api/v3/news")
+    Call<FeedContainer> getFeeds();
 }

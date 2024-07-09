@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileMarcheFragment">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/header_layout">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.SearchView
+                android:layout_width="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/title1"
+                android:text="Liste de surveillence"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crypto"
+                android:textSize="20sp"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@id/title1"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/market_data_topnav1"
+                android:layout_marginStart="10dp"
+                android:text="Tendnace" />
+            <TextView
+                android:id="@+id/market_data_topnav2"
+                android:layout_toEndOf="@+id/market_data_topnav1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Capitalisation" />
+            <TextView
+                android:layout_toEndOf="@+id/market_data_topnav2"
+                android:id="@+id/market_data_topnav3"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"
+                android:text="Prix"/>
+            <TextView
+                android:layout_toEndOf="@+id/market_data_topnav3"
+                android:layout_marginStart="10dp"
+                android:id="@+id/market_data_topnav4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Variation sur 24h"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_marginTop="10dp"
+        android:id="@+id/market_data_list"
+        tools:listitem="@layout/market_data_item"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5dp"/>
+
+</RelativeLayout>
