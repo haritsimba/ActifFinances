@@ -18,12 +18,6 @@ import retrofit2.Response;
 public class GetCoinMarketBySymbol {
     private String symbol;
 
-    public GetCoinMarketBySymbol(String symbol, CoingeckoApiServices services, GetCoinMarketBySymbolCallback callback) {
-        this.symbol = symbol;
-        this.services = services;
-        this.callback = callback;
-    }
-
     private CoingeckoApiServices services;
     private GetCoinMarketBySymbolCallback callback;
 
