@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProfileSquareFragment"
+    android:layout_marginBottom="70dp"
     android:orientation="vertical">
 
 

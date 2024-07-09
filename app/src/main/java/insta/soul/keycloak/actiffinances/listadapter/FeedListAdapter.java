@@ -15,11 +15,9 @@ import insta.soul.keycloak.actiffinances.coingecko.beans.FeedContainer;
 import insta.soul.keycloak.actiffinances.listmodels.FeedItem;
 
 public class FeedListAdapter extends RecyclerView.Adapter<FeedListAdapter.ViewHolder> {
-    private List<FeedItem> feedList;
+    private final List<FeedItem> feedList;
   public FeedListAdapter(List<FeedItem> feedList){
       this.feedList= feedList;
-
-
   }
     @NonNull
     @Override
@@ -34,7 +32,7 @@ public class FeedListAdapter extends RecyclerView.Adapter<FeedListAdapter.ViewHo
         FeedItem feedItem = feedList.get(position);
         holder.title.setText(feedItem.getTitle());
         holder.description.setText(feedItem.getDescription());
-        holder.pubDate.setText((int) feedItem.getDate());
+        holder.pubDate.setText(String.valueOf(feedItem.getDate()));
 
     }
 

@@ -1,28 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="10dp"
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="10dp"
     android:layout_marginEnd="10dp"
-    android:layout_marginStart="10dp">
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="5dp"
+    android:elevation="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_height="wrap_content">
+
+
+
     <com.google.android.material.imageview.ShapeableImageView
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:src="@drawable/colx"
+        android:layout_marginTop="10dp"
         android:id="@+id/feed_logo"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="commentaire"
+            android:text="Auteur"
             android:layout_toEndOf="@+id/feed_logo"
             android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
             android:id="@+id/feed_name" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/feed_name"
+        android:layout_below="@+id/feed_logo"
         android:layout_toEndOf="@+id/feed_logo"
-        android:text="miova"
+        android:text="commentaire"
         android:id="@+id/feed_user"
         android:layout_marginStart="10dp"/>
     <TextView
@@ -33,11 +47,8 @@
         android:layout_below="@+id/feed_user"
         android:layout_toEndOf="@id/feed_logo"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
         />
-
-
-
-
-
-
 </RelativeLayout>
+</androidx.cardview.widget.CardView>

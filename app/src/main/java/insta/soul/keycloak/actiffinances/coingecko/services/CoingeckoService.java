@@ -23,6 +23,10 @@ public class CoingeckoService {
         getCoinMarketBySymbol.getCoinMarketInfo();
     }
     public void getFeed(GetFeed.GetFeedCallback feedCallback){
-        GetFeed getFeed= new GetFeed(service,feedCallback);
+        for (int i = 1; i <100 ; i++) {
+            GetFeed getFeed= new GetFeed(service,feedCallback,i);
+            getFeed.execute();
+        }
+
     }
 }
