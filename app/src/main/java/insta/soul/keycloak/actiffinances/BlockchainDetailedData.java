@@ -37,6 +37,8 @@ import insta.soul.keycloak.actiffinances.binance.actions.GetCadleStick;
 import insta.soul.keycloak.actiffinances.binance.beans.Candlestick;
 import insta.soul.keycloak.actiffinances.binance.enumerations.GetCandleStickStatus;
 import insta.soul.keycloak.actiffinances.binance.services.DataMarketService;
+import insta.soul.keycloak.actiffinances.binance.services.websocket.WebSocketManager;
+import insta.soul.keycloak.actiffinances.binance.services.websocket.listener.BlockchainDetailedDataListener;
 import insta.soul.keycloak.actiffinances.coingecko.GetCoinMarketInfoStatus;
 import insta.soul.keycloak.actiffinances.coingecko.actions.GetCoinMarketBySymbol;
 import insta.soul.keycloak.actiffinances.coingecko.beans.CoinMarket;
@@ -64,7 +66,9 @@ public class BlockchainDetailedData extends AppCompatActivity {
     private TextView bdaRange;
     private TextView bdaSymbol;
     private ShapeableImageView bdaPrevious;
+    private WebSocketManager webSocketManager;
     CoinMarket infoSurLeBlockChain;
+    BlockchainDetailedDataListener listener;
     View mainView;
 
     @Override
@@ -99,6 +103,11 @@ public class BlockchainDetailedData extends AppCompatActivity {
 
         //cacher les elements
         mainView.setVisibility(View.GONE);
+        listener = new BlockchainDetailedDataListener(bdaPriceChangePercent,bdaPrice);
+        webSocketManager = new WebSocketManager(listener);
+        webSocketManager.startWebSocket("wss://stream.binance.com:9443/ws");
+        String params = "{\"method\" : \"SUBSCRIBE\",\"params\" : [\""+ Objects.requireNonNull(getIntent().getStringExtra("symbol")).toLowerCase().concat("usdt@ticker")+"\"]}";
+        webSocketManager.sendMessage(params);
         // Connexion à l'API WebSocket de Binance
         client = new OkHttpClient();
 
@@ -136,6 +145,7 @@ public class BlockchainDetailedData extends AppCompatActivity {
                 if (loader.isShowing()){
                     loader.cancel();
                 }
+                webSocketManager.closeWebSocket();
                 finish();
             }
         });
@@ -143,6 +153,7 @@ public class BlockchainDetailedData extends AppCompatActivity {
             if (loader.isShowing()) {
                 loader.cancel();
             }
+            webSocketManager.closeWebSocket();
             finish();
         });
 

@@ -4,6 +4,8 @@ import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
+import android.view.View;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
@@ -17,11 +19,13 @@ import okhttp3.WebSocketListener;
 
 public class BlockchainDetailedDataListener extends WebSocketListener {
     @Getter
-    private Context context;
+    TextView priceChangePercent;
+    TextView price;
     private final Handler mainHandler = new Handler(Looper.getMainLooper());
 
-    public BlockchainDetailedDataListener(Context context){
-        this.context = context;
+    public BlockchainDetailedDataListener(TextView priceChangePercent, TextView price){
+        this.priceChangePercent = priceChangePercent;
+        this.price = price;
     }
 
     @Override
@@ -34,7 +38,8 @@ public class BlockchainDetailedDataListener extends WebSocketListener {
             double priceChangePercent = jsonObject.getDouble("P");
             String blockChanainName = new Utils().getBlockChainsName(BlockchainList.getInstance().getCryptoLists(), symbol);
             Log.d("item","{ name : " + blockChanainName + ", symbol : " +symbol + "}");
-
+            this.price.setText(String.valueOf(priceChangePercent).concat(" $"));
+            this.priceChangePercent.setText(String.valueOf(priceChangePercent).concat(" %"));
         }catch (Exception e){
 
         }
