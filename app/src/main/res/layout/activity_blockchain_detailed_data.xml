@@ -49,14 +49,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/bda_price_txt"
-                android:text="20000" />
+                android:id="@+id/bda_price_txt" />
             <TextView
                 android:layout_width="wrap_content"
                 android:id="@+id/bda_price_change_txt"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/bda_price_txt"
-                android:text="10%"/>
+                android:layout_below="@+id/bda_price_txt"/>
         </RelativeLayout>
         <com.github.mikephil.charting.charts.LineChart
             android:layout_width="match_parent"
@@ -206,7 +204,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="10dp"
-        android:backgroundTint="#4CAF50"
+        android:backgroundTint="#84BBE7"
         android:src="@drawable/buy"
         />
 </RelativeLayout>

@@ -2,6 +2,8 @@ package insta.soul.keycloak.actiffinances.coingecko.beans;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.math.BigDecimal;
+
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -19,7 +21,7 @@ public class CoinMarket {
     @SerializedName("image")
     private String image;
     @SerializedName("current_price")
-    private double currentPrice;
+    private BigDecimal currentPrice;
     @SerializedName("market_cap")
     private double marketCap;
     @SerializedName("market_cap_rank")
@@ -41,7 +43,7 @@ public class CoinMarket {
     @SerializedName("max_supply")
     private double maxSupply;
     @SerializedName("ath")
-    private double ath;
+    private BigDecimal ath;
     @SerializedName("ath_change_percentage")
     private double athChangePercentage;
     @SerializedName("ath_date")

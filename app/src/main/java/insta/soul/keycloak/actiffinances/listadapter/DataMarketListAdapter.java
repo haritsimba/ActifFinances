@@ -2,6 +2,7 @@ package insta.soul.keycloak.actiffinances.listadapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.icu.text.DecimalFormat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,10 +35,18 @@ public class DataMarketListAdapter extends RecyclerView.Adapter<DataMarketListAd
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         MarketDataItem item = items.get(position);
+
         holder.symbolTextView.setText(item.getBcSymbol());
         holder.priceTextView.setText(String.valueOf(item.getBcPrice()));
         holder.priceChangeTextView.setText(String.valueOf(item.getBcPriceChange()).concat(" %"));
         holder.bcNameTextView.setText(item.getBcName());
+
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+            DecimalFormat decimalFormat = new DecimalFormat("#.########");
+            holder.priceTextView.setText(decimalFormat.format(item.getBcPrice()));
+            holder.priceChangeTextView.setText(decimalFormat.format(item.getBcPriceChange()).concat(" %"));
+        }
+
         if(item.getBcPriceChange()<0){
             holder.priceChangeTextView.setTextColor(holder.itemView.getResources().getColor(R.color.red));
         }else{

@@ -2,6 +2,7 @@ package insta.soul.keycloak.actiffinances;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.icu.text.DecimalFormat;
 import android.icu.text.SimpleDateFormat;
 import android.os.Bundle;
 import android.util.Log;
@@ -43,6 +44,7 @@ import insta.soul.keycloak.actiffinances.coingecko.GetCoinMarketInfoStatus;
 import insta.soul.keycloak.actiffinances.coingecko.actions.GetCoinMarketBySymbol;
 import insta.soul.keycloak.actiffinances.coingecko.beans.CoinMarket;
 import insta.soul.keycloak.actiffinances.coingecko.services.CoingeckoService;
+import lombok.Getter;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.WebSocket;
@@ -54,7 +56,9 @@ public class BlockchainDetailedData extends AppCompatActivity {
     private LineChart lineChart;
     private OkHttpClient client;
     private TextView bdaCapitalization;
+    @Getter
     private TextView bdaPrice;
+    @Getter
     private TextView bdaPriceChangePercent;
     private TextView bdaName;
     private TextView bdaAbout;
@@ -103,8 +107,10 @@ public class BlockchainDetailedData extends AppCompatActivity {
 
         //cacher les elements
         mainView.setVisibility(View.GONE);
-        listener = new BlockchainDetailedDataListener(bdaPriceChangePercent,bdaPrice);
+
+        listener = new BlockchainDetailedDataListener(bdaPriceChangePercent,bdaPrice,BlockchainDetailedData.this);
         webSocketManager = new WebSocketManager(listener);
+
         webSocketManager.startWebSocket("wss://stream.binance.com:9443/ws");
         String params = "{\"method\" : \"SUBSCRIBE\",\"params\" : [\""+ Objects.requireNonNull(getIntent().getStringExtra("symbol")).toLowerCase().concat("usdt@ticker")+"\"]}";
         webSocketManager.sendMessage(params);
@@ -128,6 +134,17 @@ public class BlockchainDetailedData extends AppCompatActivity {
                 bdaMontantTotal.setText(String.valueOf(coinMarket.getTotalSupply()));
                 bdaName.setText(coinMarket.getName());
                 bdaSymbol.setText(coinMarket.getSymbol().toUpperCase());
+
+                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+                    DecimalFormat decimalFormat = new DecimalFormat("#.########");
+                    bdaNiveauRecord.setText(decimalFormat.format(coinMarket.getAth()));
+                    bdaPlusBasPrix.setText(decimalFormat.format(coinMarket.getAtl()));
+                    bdaCapitalization.setText(decimalFormat.format(coinMarket.getMarketCap()));
+                    bdaApprovisionnement.setText(decimalFormat.format(coinMarket.getCirculatingSupply()));
+                    bdaMontantTotal.setText(decimalFormat.format(coinMarket.getTotalSupply()));
+                }
+
+
                 mainView.setVisibility(View.VISIBLE);
                 updateChart();
 
@@ -192,6 +209,11 @@ public class BlockchainDetailedData extends AppCompatActivity {
                 // Ajouter les lignes de limite pour les prix max et min
                 YAxis leftAxis = lineChart.getAxisLeft();
                 leftAxis.removeAllLimitLines(); // Supprimer les lignes de limite existantes
+                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+                    DecimalFormat decimalFormat = new DecimalFormat("#.########");
+                    minPrice = Float.parseFloat(decimalFormat.format(minPrice));
+                    maxPrice = Float.parseFloat(decimalFormat.format(maxPrice));
+                }
                 LimitLine llMax = new LimitLine(maxPrice, "Max (" + maxPrice + " $)");
                 llMax.setLineColor(Color.RED);
                 llMax.setLineWidth(2f);
