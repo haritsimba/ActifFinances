@@ -9,7 +9,7 @@ public class KeycloakConfig {
     public static KeycloakConfig getInstance() {
         if(instance==null){
             instance = new KeycloakConfig();
-            baseUrl = "http://192.168.43.173:8080";
+            baseUrl = "http://192.168.1.182:8080";
             realmName = "ActifsFinances";
             clientId = "ActifsFinancesApp";
         }

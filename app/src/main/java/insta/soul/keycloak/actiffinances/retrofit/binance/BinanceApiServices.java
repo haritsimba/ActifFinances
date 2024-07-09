@@ -2,6 +2,7 @@ package insta.soul.keycloak.actiffinances.retrofit.binance;
 
 import java.util.List;
 
+import insta.soul.keycloak.actiffinances.binance.beans.Candlestick;
 import insta.soul.keycloak.actiffinances.binance.beans.MarketDataTicker;
 import insta.soul.keycloak.actiffinances.binance.enumerations.BinanceDataTrickerTypes;
 import retrofit2.Call;
@@ -19,5 +20,12 @@ public interface BinanceApiServices {
     Call<MarketDataTicker> get24hMarketDataTicker(
             @Query("symbol") String symbol,
             @Query("type")BinanceDataTrickerTypes type
+    );
+    @GET("/api/v3/klines")
+    Call<List<Candlestick>> getKlines(
+            @Query("symbol") String symbol,
+            @Query("interval") String interval,
+            @Query("startTime") long startTime,
+            @Query("endTime") long endTime
     );
 }

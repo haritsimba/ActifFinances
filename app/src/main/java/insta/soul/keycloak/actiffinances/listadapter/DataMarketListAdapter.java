@@ -36,8 +36,13 @@ public class DataMarketListAdapter extends RecyclerView.Adapter<DataMarketListAd
         MarketDataItem item = items.get(position);
         holder.symbolTextView.setText(item.getBcSymbol());
         holder.priceTextView.setText(String.valueOf(item.getBcPrice()));
-        holder.priceChangeTextView.setText(String.valueOf(item.getBcPriceChange()));
+        holder.priceChangeTextView.setText(String.valueOf(item.getBcPriceChange()).concat(" %"));
         holder.bcNameTextView.setText(item.getBcName());
+        if(item.getBcPriceChange()<0){
+            holder.priceChangeTextView.setTextColor(holder.itemView.getResources().getColor(R.color.red));
+        }else{
+            holder.priceChangeTextView.setTextColor(holder.itemView.getResources().getColor(R.color.green));
+        }
         String iconName = item.getBcSymbol().toLowerCase();
         int iconResId = holder.itemView.getResources().getIdentifier(iconName, "drawable", holder.itemView.getContext().getPackageName());
 
@@ -61,8 +66,7 @@ public class DataMarketListAdapter extends RecyclerView.Adapter<DataMarketListAd
     }
 
     @Override
-    public int getItemCount() {
-        return items.size();
+    public int getItemCount() {return items.size();
     }
 
     public int updateItem(String symbol, double price,double priceChange) {

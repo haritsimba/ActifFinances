@@ -20,6 +20,7 @@ public class GetCoinMarketInfoByIdAndCurrency {
 
 
     void getCoinMarketInfo(){
+
         Call<List<CoinMarket>> call = services.getCoinMarkets(currecy,id);
         call.enqueue(new Callback<List<CoinMarket>>() {
             @Override
