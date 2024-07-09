@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "insta.soul.keycloak.actiffinances.app-mergeDebugResources-31:/layout/fragment_profile_main.xml",
+        "source": "insta.soul.keycloak.actiffinances.app-main-34:/layout/fragment_profile_main.xml"
+    },
+    {
+        "merged": "insta.soul.keycloak.actiffinances.app-mergeDebugResources-31:/layout/activity_welcome.xml",
+        "source": "insta.soul.keycloak.actiffinances.app-main-34:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "insta.soul.keycloak.actiffinances.app-mergeDebugResources-31:/layout/activity_profile_page.xml",
+        "source": "insta.soul.keycloak.actiffinances.app-main-34:/layout/activity_profile_page.xml"
+    },
+    {
+        "merged": "insta.soul.keycloak.actiffinances.app-mergeDebugResources-31:/layout/activity_main.xml",
+        "source": "insta.soul.keycloak.actiffinances.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "insta.soul.keycloak.actiffinances.app-mergeDebugResources-31:/layout/loading_layout.xml",
+        "source": "insta.soul.keycloak.actiffinances.app-main-34:/layout/loading_layout.xml"
+    },
+    {
+        "merged": "insta.soul.keycloak.actiffinances.app-mergeDebugResources-31:/layout/activity_blockchain_detailed_data.xml",
+        "source": "insta.soul.keycloak.actiffinances.app-main-34:/layout/activity_blockchain_detailed_data.xml"
+    },
+    {
+        "merged": "insta.soul.keycloak.actiffinances.app-mergeDebugResources-31:/layout/fragment_profile_wallet.xml",
+        "source": "insta.soul.keycloak.actiffinances.app-main-34:/layout/fragment_profile_wallet.xml"
+    },
+    {
+        "merged": "insta.soul.keycloak.actiffinances.app-mergeDebugResources-31:/layout/fragment_profile_square.xml",
+        "source": "insta.soul.keycloak.actiffinances.app-main-34:/layout/fragment_profile_square.xml"
+    },
+    {
+        "merged": "insta.soul.keycloak.actiffinances.app-mergeDebugResources-31:/layout/fragment_profile_marche.xml",
+        "source": "insta.soul.keycloak.actiffinances.app-main-34:/layout/fragment_profile_marche.xml"
+    },
+    {
+        "merged": "insta.soul.keycloak.actiffinances.app-mergeDebugResources-31:/layout/fragment_profile_discover.xml",
+        "source": "insta.soul.keycloak.actiffinances.app-main-34:/layout/fragment_profile_discover.xml"
+    },
+    {
+        "merged": "insta.soul.keycloak.actiffinances.app-mergeDebugResources-31:/layout/activity_login_page.xml",
+        "source": "insta.soul.keycloak.actiffinances.app-main-34:/layout/activity_login_page.xml"
+    },
+    {
+        "merged": "insta.soul.keycloak.actiffinances.app-mergeDebugResources-31:/layout/activity_sign_in_page.xml",
+        "source": "insta.soul.keycloak.actiffinances.app-main-34:/layout/activity_sign_in_page.xml"
+    },
+    {
+        "merged": "insta.soul.keycloak.actiffinances.app-mergeDebugResources-31:/layout/market_feed_item.xml",
+        "source": "insta.soul.keycloak.actiffinances.app-main-34:/layout/market_feed_item.xml"
+    },
+    {
+        "merged": "insta.soul.keycloak.actiffinances.app-mergeDebugResources-31:/layout/market_data_item.xml",
+        "source": "insta.soul.keycloak.actiffinances.app-main-34:/layout/market_data_item.xml"
+    }
+]
