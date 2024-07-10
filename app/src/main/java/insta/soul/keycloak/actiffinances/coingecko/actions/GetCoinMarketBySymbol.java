@@ -18,6 +18,7 @@ import retrofit2.Response;
 public class GetCoinMarketBySymbol {
     private String symbol;
 
+
     private CoingeckoApiServices services;
     private GetCoinMarketBySymbolCallback callback;
 

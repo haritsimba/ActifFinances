@@ -19,5 +19,7 @@ public interface CoingeckoApiServices {
             @Query("ids") String ids
     );
     @GET("/api/v3/news")
-    Call<FeedContainer> getFeeds();
+    Call<FeedContainer> getFeeds(
+            @Query("page")int numberPage
+    );
 }

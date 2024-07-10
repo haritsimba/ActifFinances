@@ -10,6 +10,6 @@ import lombok.Setter;
 public class FeedItem {
     private String title;
     private String description;
-    private long date;
+    private String date;
 
 }
