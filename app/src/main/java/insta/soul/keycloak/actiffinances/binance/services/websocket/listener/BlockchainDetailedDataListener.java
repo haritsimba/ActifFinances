@@ -1,22 +1,26 @@
 package insta.soul.keycloak.actiffinances.binance.services.websocket.listener;
 
-import android.content.Context;
-import android.graphics.Color;
+import android.annotation.SuppressLint;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
-import android.view.View;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
+import com.github.mikephil.charting.data.Entry;
+import com.github.mikephil.charting.data.LineData;
+import com.github.mikephil.charting.data.LineDataSet;
+import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
+
 import org.json.JSONObject;
 
+import java.time.Instant;
+import java.util.ArrayList;
+import java.util.Date;
+
 import insta.soul.keycloak.actiffinances.BlockchainDetailedData;
-import insta.soul.keycloak.actiffinances.binance.actions.Utils;
-import insta.soul.keycloak.actiffinances.binance.beans.BlockchainList;
-import lombok.Getter;
-import okhttp3.Response;
+import insta.soul.keycloak.actiffinances.R;
 import okhttp3.WebSocket;
 import okhttp3.WebSocketListener;
 
@@ -32,6 +36,7 @@ public class BlockchainDetailedDataListener extends WebSocketListener {
         this.blockchainDetailedData = blockchainDetailedData;
     }
 
+    @SuppressLint("DefaultLocale")
     @Override
     public void onMessage(@NonNull WebSocket webSocket, @NonNull String text) {
         super.onMessage(webSocket, text);
@@ -39,13 +44,29 @@ public class BlockchainDetailedDataListener extends WebSocketListener {
             JSONObject jsonObject = new JSONObject(text);
             String symbol = jsonObject.getString("s").substring(0, jsonObject.getString("s").length() - 4);
             double price = jsonObject.getDouble("c");
-            double priceChangePercent = jsonObject.getDouble("P");
-            this.price.setText(String.valueOf(price));
-            this.priceChangePercent.setText(String.valueOf(priceChangePercent));
-            blockchainDetailedData.getBdaPrice().setText(String.valueOf(price));
-            blockchainDetailedData.getBdaPriceChangePercent().setText(String.valueOf(priceChangePercent));
-        }catch (Exception e){
 
+            double priceChangePercent = jsonObject.getDouble("P");
+            long timestamp = System.currentTimeMillis();
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                timestamp = Instant.now().toEpochMilli();
+            }
+            long finalTimestamp = timestamp;
+            mainHandler.post(() -> {
+                // Update UI elements on the main thread
+                this.price.setText(String.format("%.8f", price).concat(" $"));
+                this.price.setTextColor(blockchainDetailedData.getResources().getColor(R.color.blue));
+                if (priceChangePercent<0){
+                    this.priceChangePercent.setTextColor(blockchainDetailedData.getResources().getColor(R.color.red));
+                }else{
+                    this.priceChangePercent.setTextColor(blockchainDetailedData.getResources().getColor(R.color.green));
+                }
+                this.priceChangePercent.setText(String.valueOf(priceChangePercent).concat(" %"));
+                blockchainDetailedData.getEntries().add(new Entry(finalTimestamp, (float) price));
+                blockchainDetailedData.getLineChart().notifyDataSetChanged();
+                blockchainDetailedData.getLineChart().invalidate();
+            });
+        }catch (Exception e){
+            Log.d("Erreur", "onMessage: "+e.getMessage());
         }
 
     }

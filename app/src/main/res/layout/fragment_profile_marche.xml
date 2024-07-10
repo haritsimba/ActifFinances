@@ -17,6 +17,7 @@
             android:layout_marginTop="10dp"
             android:layout_height="wrap_content">
             <androidx.appcompat.widget.SearchView
+                android:id="@+id/market_data_search"
                 android:layout_width="match_parent"
                 android:layout_marginStart="10dp"
                 android:layout_height="40dp"

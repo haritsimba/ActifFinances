@@ -21,7 +21,7 @@ public class CoinMarket {
     @SerializedName("image")
     private String image;
     @SerializedName("current_price")
-    private BigDecimal currentPrice;
+    private double currentPrice;
     @SerializedName("market_cap")
     private double marketCap;
     @SerializedName("market_cap_rank")
@@ -43,7 +43,7 @@ public class CoinMarket {
     @SerializedName("max_supply")
     private double maxSupply;
     @SerializedName("ath")
-    private BigDecimal ath;
+    private double ath;
     @SerializedName("ath_change_percentage")
     private double athChangePercentage;
     @SerializedName("ath_date")

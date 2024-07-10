@@ -2,6 +2,8 @@ package insta.soul.keycloak.actiffinances.binance.beans;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.math.BigDecimal;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -12,13 +14,13 @@ import lombok.ToString;
 @ToString
 @AllArgsConstructor
 public class Candlestick {
-    private long openTime;
+    private Long openTime;
     private String open;
     private String high;
     private String low;
     private String close;
     private String volume;
-    private long closeTime;
+    private Long closeTime;
     private String quoteAssetVolume;
     private int numberOfTrades;
     private String takerBuyBaseAssetVolume;

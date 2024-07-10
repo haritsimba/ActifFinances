@@ -32,7 +32,6 @@ public class DataMarketListener extends WebSocketListener {
             double priceChangePercent = jsonObject.getDouble("P");
             String blockChanainName = new Utils().getBlockChainsName(BlockchainList.getInstance().getCryptoLists(), symbol);
             mainHandler.post(() -> {
-                Log.d("start","bungo bungoo");
                 int position = adapter.updateItem(symbol, price,priceChangePercent);
                 if (position == -1) {
                     adapter.addItem(new MarketDataItem(blockChanainName,symbol,symbol,price,priceChangePercent));

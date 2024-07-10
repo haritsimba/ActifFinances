@@ -32,7 +32,7 @@ public class DataMarketService {
     public void getCandleStickOneY(String symbol, GetCadleStick.GetCandleStickCallback callback){
         long currentTimeStamp = System.currentTimeMillis();
         Calendar calendar = Calendar.getInstance();
-        calendar.add(Calendar.YEAR, -1);
+        calendar.add(Calendar.WEEK_OF_YEAR, -1);
 
         Gson gson = new GsonBuilder()
                 .registerTypeAdapter(new TypeToken<List<Candlestick>>(){}.getType(), new CandlestickDeserializer())
@@ -45,8 +45,8 @@ public class DataMarketService {
 
         BinanceApiServices apiService = retrofit.create(BinanceApiServices.class);
 
-        long oneYearAgoTimestamp = calendar.getTimeInMillis();
-        GetCadleStick getCadleStick = new GetCadleStick(apiService,symbol,"1h",oneYearAgoTimestamp,currentTimeStamp,callback);
+        long oneDayAgoTimestamp = calendar.getTimeInMillis();
+        GetCadleStick getCadleStick = new GetCadleStick(apiService,symbol,"1m",oneDayAgoTimestamp,currentTimeStamp,callback);
         getCadleStick.execute();
     }
 }

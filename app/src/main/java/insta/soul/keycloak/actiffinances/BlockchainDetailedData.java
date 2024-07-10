@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Color;
 import android.icu.text.DecimalFormat;
 import android.icu.text.SimpleDateFormat;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -19,6 +20,7 @@ import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
+import com.github.mikephil.charting.formatter.IndexAxisValueFormatter;
 import com.github.mikephil.charting.formatter.ValueFormatter;
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
 import com.google.android.material.imageview.ShapeableImageView;
@@ -28,6 +30,8 @@ import com.google.gson.JsonParser;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -53,6 +57,7 @@ import okio.ByteString;
 
 public class BlockchainDetailedData extends AppCompatActivity {
 
+    @Getter
     private LineChart lineChart;
     private OkHttpClient client;
     private TextView bdaCapitalization;
@@ -71,8 +76,11 @@ public class BlockchainDetailedData extends AppCompatActivity {
     private TextView bdaSymbol;
     private ShapeableImageView bdaPrevious;
     private WebSocketManager webSocketManager;
+    @Getter
+    List<Entry> entries = new ArrayList<>();
     CoinMarket infoSurLeBlockChain;
     BlockchainDetailedDataListener listener;
+    private LoadingAnimation loader;
     View mainView;
 
     @Override
@@ -110,15 +118,9 @@ public class BlockchainDetailedData extends AppCompatActivity {
 
         listener = new BlockchainDetailedDataListener(bdaPriceChangePercent,bdaPrice,BlockchainDetailedData.this);
         webSocketManager = new WebSocketManager(listener);
-
-        webSocketManager.startWebSocket("wss://stream.binance.com:9443/ws");
-        String params = "{\"method\" : \"SUBSCRIBE\",\"params\" : [\""+ Objects.requireNonNull(getIntent().getStringExtra("symbol")).toLowerCase().concat("usdt@ticker")+"\"]}";
-        webSocketManager.sendMessage(params);
         // Connexion à l'API WebSocket de Binance
-        client = new OkHttpClient();
-
         //animation
-        LoadingAnimation loader = new LoadingAnimation(this);
+        loader = new LoadingAnimation(this);
         loader.show();
         String symbol = getIntent().getStringExtra("symbol") != null ? getIntent().getStringExtra("symbol").toLowerCase()  : "btcusdt" ;
         new CoingeckoService().getCoinckoInfo(symbol, new GetCoinMarketBySymbol.GetCoinMarketBySymbolCallback() {
@@ -143,12 +145,7 @@ public class BlockchainDetailedData extends AppCompatActivity {
                     bdaApprovisionnement.setText(decimalFormat.format(coinMarket.getCirculatingSupply()));
                     bdaMontantTotal.setText(decimalFormat.format(coinMarket.getTotalSupply()));
                 }
-
-
-                mainView.setVisibility(View.VISIBLE);
                 updateChart();
-
-                loader.cancel();
             }
             @Override
             public void onFaillure(Throwable throwable) {
@@ -182,21 +179,24 @@ public class BlockchainDetailedData extends AppCompatActivity {
         new DataMarketService().getCandleStickOneY(binanceSymbol, new GetCadleStick.GetCandleStickCallback() {
             @Override
             public void onSucces(GetCandleStickStatus status, List<Candlestick> candlesticks) {
-
                 float minPrice = Float.MAX_VALUE;
                 float maxPrice = Float.MIN_VALUE;
-                List<Entry> entries = new ArrayList<>();
+                double max = Float.MAX_VALUE;
+                double min = Float.MIN_VALUE;
+
                 for (Candlestick candlestick : candlesticks) {
                     float closePrice = Float.parseFloat(candlestick.getClose());
                     entries.add(new Entry(candlestick.getCloseTime(), closePrice));
                     if (closePrice < minPrice) {
                         minPrice = closePrice;
+                        min = Double.parseDouble(candlestick.getClose());
                     }
                     if (closePrice > maxPrice) {
                         maxPrice = closePrice;
+                        max = Double.parseDouble(candlestick.getClose());
                     }
                 }
-                LineDataSet dataSet = new LineDataSet(entries, "Variation de prix de " + infoSurLeBlockChain.getName() + " en une année");
+                LineDataSet dataSet = new LineDataSet(entries, "Varitation de prix de "+infoSurLeBlockChain.getName() + " en une année");
 
                 // Configurer le LineDataSet pour afficher uniquement les lignes sans points
                 dataSet.setDrawCircles(false);
@@ -209,18 +209,13 @@ public class BlockchainDetailedData extends AppCompatActivity {
                 // Ajouter les lignes de limite pour les prix max et min
                 YAxis leftAxis = lineChart.getAxisLeft();
                 leftAxis.removeAllLimitLines(); // Supprimer les lignes de limite existantes
-                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
-                    DecimalFormat decimalFormat = new DecimalFormat("#.########");
-                    minPrice = Float.parseFloat(decimalFormat.format(minPrice));
-                    maxPrice = Float.parseFloat(decimalFormat.format(maxPrice));
-                }
-                LimitLine llMax = new LimitLine(maxPrice, "Max (" + maxPrice + " $)");
+                LimitLine llMax = new LimitLine(maxPrice, "Max ("+String.format("%.8f", max)+" $)");
                 llMax.setLineColor(Color.RED);
                 llMax.setLineWidth(2f);
                 llMax.setTextColor(Color.RED);
                 llMax.setTextSize(12f);
 
-                LimitLine llMin = new LimitLine(minPrice, "Min (" + minPrice + " $)");
+                LimitLine llMin = new LimitLine(minPrice, "Min ("+String.format("%.8f", min)+" $)");
                 llMin.setLineColor(Color.BLUE);
                 llMin.setLineWidth(2f);
                 llMin.setTextColor(Color.BLUE);
@@ -233,32 +228,43 @@ public class BlockchainDetailedData extends AppCompatActivity {
 
                 // Configurer l'axe des abscisses (X)
                 XAxis xAxis = lineChart.getXAxis();
-                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
-                    xAxis.setValueFormatter(new ValueFormatter() {
-                        private final SimpleDateFormat dateFormat = new SimpleDateFormat("MMM dd", Locale.FRANCE);
-
-                        @Override
-                        public String getFormattedValue(float value) {
-                            return dateFormat.format(new Date((long) value));
+                xAxis.setValueFormatter(new ValueFormatter() {
+                    @Override
+                    public String getFormattedValue(float value) {
+                        Date date = new Date((long) value);
+                        SimpleDateFormat sdf = null;
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                            sdf = new SimpleDateFormat("MM:dd HH:mm", Locale.FRANCE);
                         }
-                    });
-                }
-                xAxis.setLabelRotationAngle(-45); // Rotation des labels
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                            return sdf.format(date);
+                        }
+                        return "";
+                    }
+                });
                 xAxis.setGranularity(1f); // Intervalle minimal entre les labels
                 xAxis.setGranularityEnabled(true);
+                xAxis.setPosition(XAxis.XAxisPosition.BOTTOM); // Position des labels en bas
+                xAxis.setLabelCount(4, true); // Forcer à afficher 4 labels
 
                 // Configurer l'axe des ordonnées (Y)
                 YAxis rightAxis = lineChart.getAxisRight();
                 rightAxis.setEnabled(false); // Désactiver l'axe droit
 
                 lineChart.invalidate();
+                webSocketManager.startWebSocket("wss://stream.binance.com:9443/ws");
+                String params = "{\"method\" : \"SUBSCRIBE\",\"params\" : [\""+ Objects.requireNonNull(getIntent().getStringExtra("symbol")).toLowerCase().concat("usdt@ticker")+"\"]}";
+                webSocketManager.sendMessage(params);
+                mainView.setVisibility(View.VISIBLE);
+                loader.cancel();
             }
 
             @Override
             public void onFailure(Throwable throwable) {
-
+                Log.e("Erreur", throwable.getMessage());
             }
         });
     }
+
 
 }

@@ -1,5 +1,8 @@
 package insta.soul.keycloak.actiffinances.binance.actions;
 
+import android.annotation.SuppressLint;
+import android.util.Log;
+
 import java.util.List;
 
 import insta.soul.keycloak.actiffinances.binance.beans.Candlestick;
@@ -22,6 +25,7 @@ public class GetCadleStick {
     public void execute(){
         Call<List<Candlestick>> call = binanceApiServices.getKlines(symbol,interval,startTime,endTime);
         call.enqueue(new Callback<List<Candlestick>>() {
+            @SuppressLint("DefaultLocale")
             @Override
             public void onResponse(Call<List<Candlestick>> call, Response<List<Candlestick>> response) {
                 if (response.isSuccessful()){

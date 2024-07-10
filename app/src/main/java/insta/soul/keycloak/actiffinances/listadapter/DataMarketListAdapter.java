@@ -1,5 +1,6 @@
 package insta.soul.keycloak.actiffinances.listadapter;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.icu.text.DecimalFormat;
@@ -10,20 +11,35 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.airbnb.lottie.L;
 import com.google.android.material.imageview.ShapeableImageView;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import insta.soul.keycloak.actiffinances.BlockchainDetailedData;
+import insta.soul.keycloak.actiffinances.ProfileMarcheFragment;
 import insta.soul.keycloak.actiffinances.R;
 import insta.soul.keycloak.actiffinances.listmodels.MarketDataItem;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+@NoArgsConstructor
 public class DataMarketListAdapter extends RecyclerView.Adapter<DataMarketListAdapter.MyViewHolder> {
-    private final List<MarketDataItem> items = new ArrayList<>();
+    private List<MarketDataItem> items = new ArrayList<>();
+    @Getter
+    @Setter
+    private boolean search = false;
     private int missingIcon = 0;
+    private ProfileMarcheFragment profileMarcheFragment;
+
+    public DataMarketListAdapter(ProfileMarcheFragment profileMarcheFragment){
+        this.profileMarcheFragment = profileMarcheFragment;
+    }
 
     @NonNull
     @Override
@@ -35,7 +51,6 @@ public class DataMarketListAdapter extends RecyclerView.Adapter<DataMarketListAd
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         MarketDataItem item = items.get(position);
-
         holder.symbolTextView.setText(item.getBcSymbol());
         holder.priceTextView.setText(String.valueOf(item.getBcPrice()));
         holder.priceChangeTextView.setText(String.valueOf(item.getBcPriceChange()).concat(" %"));
@@ -79,6 +94,10 @@ public class DataMarketListAdapter extends RecyclerView.Adapter<DataMarketListAd
     }
 
     public int updateItem(String symbol, double price,double priceChange) {
+        if(this.profileMarcheFragment.getLoadingAnimation().isShowing()){
+            this.profileMarcheFragment.getLoadingAnimation().cancel();
+            profileMarcheFragment.getView().setVisibility(View.VISIBLE);
+        }
         for (int i = 0; i < items.size(); i++) {
             MarketDataItem item = items.get(i);
             if (item.getBcSymbol().equals(symbol)) {
@@ -90,9 +109,41 @@ public class DataMarketListAdapter extends RecyclerView.Adapter<DataMarketListAd
         return -1;
     }
 
+    /**
+     * ajout d'un item
+     * @param item
+     */
     public void addItem(MarketDataItem item) {
-        items.add(item);
-        notifyItemInserted(items.size() - 1);
+        Log.d("notif","Additem");
+        if(!search){
+            items.add(item);
+            notifyItemInserted(items.size() - 1);
+            if(this.profileMarcheFragment.getLoadingAnimation().isShowing()){
+                this.profileMarcheFragment.getLoadingAnimation().cancel();
+                profileMarcheFragment.getView().setVisibility(View.VISIBLE);
+            }
+            Log.e("notif","Item added");
+        }
+    }
+
+    @SuppressLint("NotifyDataSetChanged")
+    public void searchItem(String query) {
+        search = true;
+        List<MarketDataItem> newList = new ArrayList<>();
+        if(!query.trim().isEmpty()){
+            for (MarketDataItem item:items) {
+                if(item.getBcSymbol().toLowerCase().contains(query.toLowerCase().trim()) || item.getBcName().toLowerCase().contains(query.toLowerCase().trim())){
+                    newList.add(item);
+                }
+            }
+            items = newList;
+            notifyDataSetChanged();
+        }
+         // Notifier les changements
+    }
+
+    public void resetSearch() {
+        search = false;
     }
 
     static class MyViewHolder extends RecyclerView.ViewHolder {

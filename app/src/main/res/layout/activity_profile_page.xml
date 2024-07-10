@@ -15,7 +15,7 @@
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottom_appBar"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="@android:color/transparent"
         app:fabAlignmentMode="center"
